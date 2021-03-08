@@ -85,7 +85,8 @@ im.save("alien.jpg")
 ```
 The output :
 
-![](images/3.png) 
+![](images/flag.png) 
+
 ## Flag
 using a QR-Code reader : https://online-barcode-reader.inliteresearch.com/
 ```
