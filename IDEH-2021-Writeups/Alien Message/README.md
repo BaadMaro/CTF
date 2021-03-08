@@ -10,15 +10,15 @@
 ## Attached files
 - challenge.txt
 - solve.py
-- flag.png
+- flag.jpg
 
 
 
 ## Detailed solution
 Analysing the text by eyes, i can assume that it's base32/64 encoding  
 using cyberchef and decode the text with **base32**  
-![](images/1.png)   
-i finded two words IDEH and CTF, we can replace by 1 and 0  
+
+I finded two words IDEH and CTF, we can replace by 1 and 0  
 
 ```
 111111111111111111111111111111111111111111111111111111111111111111
@@ -85,7 +85,7 @@ im.save("alien.jpg")
 ```
 The output :
 
-![](images/flag.png) 
+<img src="flag.jpg" width="400" height="400">
 
 ## Flag
 using a QR-Code reader : https://online-barcode-reader.inliteresearch.com/
