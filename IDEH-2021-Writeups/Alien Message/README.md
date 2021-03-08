@@ -1,7 +1,7 @@
 
 # Challenge Name: Alien Message
 
-![date](https://img.shields.io/badge/date-03.08.2021-brightgreen.svg)  
+![date](https://img.shields.io/badge/date-08.03.2021-brightgreen.svg)  
 ![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg) 
 ![stego category](https://img.shields.io/badge/category-stego-lightgrey.svg)
 ![score](https://img.shields.io/badge/score-150-blue.svg)
