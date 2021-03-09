@@ -60,7 +60,7 @@ by looking at the text we can see a visual patterns. It's a **QR-Code**
 ![](https://www.adafruit.com/adablog/wp-content/uploads/2012/02/anatomy-qr.png)     
 we need to create an image with 0 representing black color. I used the python library **PIL**  
 ```python 
-from PIL import Image, ImageDraw
+from PIL import Image
 
 #first decode the messge from base32 and replace IDEH by 1 and CTF by 0 (cyberchef cs im bad with py xd) -> alien.txt
 
@@ -79,7 +79,8 @@ for x in range(32):
          pixels[x,y] = (0, 0, 0)    
 
      
-im = im.resize((1880, 1880), Image.ANTIALIAS) #the image is too small 32x65
+#im = im.resize((1880, 1880), Image.ANTIALIAS) #the image is too small 32x65
+im = im.resize((1880, 1880), resample=Image.BOX) #upscale without blur
 im.show()
 im.save("alien.jpg")
 ```
