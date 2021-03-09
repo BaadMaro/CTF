@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw
+from PIL import Image
 
 #first decode the messge from base32 and replace IDEH by 1 and CTF by 0 (cyberchef cs im bad with py xd) -> alien.txt
 
@@ -17,7 +17,7 @@ for x in range(32):
          pixels[x,y] = (0, 0, 0)    
 
      
-im = im.resize((1880, 1880), Image.ANTIALIAS) #the image is too small 32x65
+#im = im.resize((1880, 1880), Image.ANTIALIAS) #the image is too small 32x65
+im = im.resize((1880, 1880), resample=Image.BOX) #upscale without blur
 im.show()
 im.save("alien.jpg")
-
