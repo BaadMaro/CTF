@@ -84,7 +84,9 @@ im = im.resize((1880, 1880), resample=Image.BOX) #upscale without blur
 im.show()
 im.save("alien.jpg")
 ```
-The output :
+The output :  
+  
+using PIL.Image.BOX to upscale without blur
 
 <img src="flag.jpg" width="400" height="400">
 
