@@ -26,7 +26,7 @@ steghide info APessimisticLife.jpg
   format: jpeg
   capacity: 22.8 KB
 Try to get information about embedded data ? (y/n) y
-Enter passphrase:  <-- depression
+Enter passphrase:  
   embedded file "Depression.txt":
     size: 271.0 Byte
     encrypted: rijndael-128, cbc
