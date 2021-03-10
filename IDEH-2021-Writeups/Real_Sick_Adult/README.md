@@ -8,7 +8,7 @@
 
 
 ## Attached files
-- [ciphertext.txt](cipher.txt)
+- [ciphertext.txt](ciphertext.txt)
 - [key4orencryption.txt](key4orencryption.txt)
 - [rsa.py](rsa.py)
 
