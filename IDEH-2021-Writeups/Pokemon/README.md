@@ -9,7 +9,7 @@
 
 
 ## Attached files
-- [Pikatchu.txt](Pikatchu.txt)
+- [Pikachu.txt](Pikachu.txt)
 
 
 
