@@ -28,7 +28,7 @@ Using the filtre **http** i finded some intersting requests at the end :
 11803	256.786844861	192.168.43.135	192.168.43.1	HTTP	1023	HTTP/1.0 200 OK  (application/octet-stream)
 ````
 
-We have two HTTP requests to GET the files **script** and **Flag.enc** we can click fllow TCP stream on each request and see the content. 
+We have two HTTP requests to GET the files **script** and **Flag.enc** we can click follow TCP stream on each request and see the content. 
   
 The script is a Python 2.7 code : 
 
