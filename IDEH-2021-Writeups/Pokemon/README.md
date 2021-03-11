@@ -18,7 +18,7 @@
 ## Detailed solution
 The challenge description tell us to find the Pikachu on this subdomain (CTF) and refering to not use bruteforcing. 
 We understand from not bruteforcing that we gonna work with pages in this website and not secrets files/directories.
-We start by inspecting pages, we find at /rules a weird commment tag that contians **Pikachu** :
+We start by inspecting pages, we find at /rules a weird comment tag that contians **Pikachu** :
 
 ````html
   <!-- 
