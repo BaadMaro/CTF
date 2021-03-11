@@ -9,6 +9,7 @@
 
 ## Attached files
 - [i_captured_THe_flag.zip](i_captured_THe_flag.zip)
+- [flag.enc](flag.enc)
 - [decryption.py](decryption.py)
 
 
