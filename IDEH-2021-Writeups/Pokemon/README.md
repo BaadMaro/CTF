@@ -26,7 +26,7 @@ pi pi pi pi pi pi pi pi pi pi pika pipi pi pipi pi pi pi pipi pi pi pi pi pi pi 
 -->
 ````
 
-After searching, i finded that it's a **Brainfuck** based languge called **Pikalang**.  
+After searching, i finded that it's a **Brainfuck** based language called **Pikalang**.  
 Pikalang is a programming language based on the BrainFuck language but whose operators are substituted by the cries of the Pokemon Pikachu. Thus, from a code written in BrainFuck, the following table helps to match the code in Pikalang :
 
 ````
@@ -45,7 +45,7 @@ We need to decrypt this Pikalang code, i used https://www.dcode.fr/pikalang-lang
 . . . . . . . . . . . . . . . . . . . . ! ? . ? . . . ? . . . . . . . ? . . . . . . . . . . . . . . . ? . . . . . . . . . . . . . . . . . . . . ? . ? . ? . ? . ! ! ? ! . ? . ? . ? . . . . . . ! . ! ! ! ! ! ! ! ! ! ! ! . . . ! . . . . . . . ! . . ? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ! . ? . ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . . ? ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . ? . ! ! ! . . ? ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ! . ? . ! ! ! ! ! ! ! . . ? ! ! ! ! ! ! ! ! ! . ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . ? . ! . . ? . . . . . . . . . . . . . . . . . . . . . . . . ! . ? . . . . . . . . . ! . . ? . . . . . . . . . . . . . . . . . . . . . . . . . . . . ! . ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . . . . . . . . . . . . . . . . . . . ! . ? . . . . . . . . . . . . . . . . . . . . . . . . . ! . . ? ! ! ! ! ! ! ! ! ! ! ! . . . . . . . . . . . . . . . . . ! . ? . ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! . . ? . . . . . . . . . . . . . . ! . . . . . . . . . . . . . . . . . . . . . . . ! .
 ````
 
-It's another werid code that contians ". ! ?" after a little search i finded that it's another variation of Brainfuck languge called **Ook** 
+It's another werid code that contians ". ! ?" after a little search i finded that it's another variation of Brainfuck language called **Ook** 
 The Ook code is sometimes simplified (by removing the Ook), making it a ternary code (with 3 characters) :
 
 ````
