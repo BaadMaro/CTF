@@ -137,10 +137,10 @@ CROATIAN rabljena vozila <--> ENGLISH used vehicles
 ```
 
 Croatian language : 
- - Native to: Croatia, Bosnia and Herzegovina, Serbia (Vojvodina), Montenegro, Romania (Caraș-Severin County)   
+ - Native to : Croatia, Bosnia and Herzegovina, Serbia (Vojvodina), Montenegro, Romania (Caraș-Severin County)   
    
 Slovenian lnaguage :  
- - Native to	Slovenia, Italy (Friuli Venezia Giulia), Austria (Carinthia and Styria)
+ - Native to	: Slovenia, Italy (Friuli Venezia Giulia), Austria (Carinthia and Styria)
 
 Slovene and Croatian are Slavic languages, both members of the South Slavic group, which also includes Serbian, Macedonian, and Bulgarian.  
 
