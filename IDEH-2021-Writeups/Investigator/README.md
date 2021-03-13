@@ -51,7 +51,7 @@ Exif
 We can see JFIF a the the beginning, it's a JPEG image. We need to fix the header to recover the image.
 
 ```bash
- xxd factory.bz2 | less
+xxd factory.bz2 | less
 00000000: 425a 68e0 0010 4a46 4946 0001 0100 0001  BZh...JFIF......
 ```
 JPEG header : 
@@ -67,11 +67,11 @@ file factory1.jpg
 factory1.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=5, xresolution=74, yresolution=82, resolutionunit=1, GPS-Data], progressive, precision 8, 1040x690, components 3
 ```
 
-[!image](factory.jpg)
+![](factory.jpg)
 
 We can see in the flags : RENAULT rabljena vozila
 
-That image has also some exif metadata let's run exiftool :
+That image has also some metadata let's run exiftool :
 
 ```bash
 exiftool factory.jpg
@@ -108,19 +108,20 @@ Megapixels                      : 0.718
 
 We have a gps latitude 45 deg 48' 0.15" and the gps altitude is missing. In the challenge description the solution is to find the plus code.  
 
-Plus Codes are like street addresses for people or places that don’t have one. Instead of addresses with street names and numbers, Plus Codes are based on latitude and longitude, and displayed as numbers and letters.
+Plus Codes are like street addresses for people or places that don’t have one. Instead of addresses with street names and numbers, Plus Codes are based on latitude and longitude, and displayed as numbers and letters.  
+
 https://maps.google.com/pluscodes/
 
-We can't find the place directly without gps altitude so we need to collect all the information that we have to find place in the image.
+We can't find the place directly without gps longitude so we need to collect all the information that we have to find place in the image.
 
-We have an XMP:CreateDate that support time zone unlike EXIF:CreateDate. It mention the GMT +1 time zone.
+We have an XMP:CreateDate that support time zone. It mention the GMT +1 time zone.
 
 ```
 Creation Date                   : 2021:02:28 13:08:06+01:00
 ```
 So the place that we search it's in a GMT +1 time zone.  
 
-The GPS latitude 45 deg 48' 0.15" is in the DMS(Degrees Minutes Seconds) format we can convert it the the DD (decimal degrees) :
+The GPS latitude 45 deg 48' 0.15" is in the DMS(Degrees Minutes Seconds) format we can convert to the DD (decimal degrees) :
 ```
 45° 48' 0.15" = 45° + 48'/60 + 0.15"/3600 = 45.80004°
 ```
@@ -136,7 +137,8 @@ CROATIAN rabljena vozila <--> ENGLISH used vehicles
 ```
 
 Croatian language : 
- - Native to: Croatia, Bosnia and Herzegovina, Serbia (Vojvodina), Montenegro, Romania (Caraș-Severin County)  
+ - Native to: Croatia, Bosnia and Herzegovina, Serbia (Vojvodina), Montenegro, Romania (Caraș-Severin County)   
+   
 Slovenian lnaguage :  
  - Native to	Slovenia, Italy (Friuli Venezia Giulia), Austria (Carinthia and Styria)
 
@@ -144,7 +146,7 @@ Slovene and Croatian are Slavic languages, both members of the South Slavic grou
 
 ![](http://travels.bowenplace.com/europe_2008/language/files/651px-slavic_languages.png)  
 
-We know now that the GPS latitude is North, we search the 45°-46° North and use also the timzezone that we founded. 
+We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the timzezone that we founded. 
 
 ![](https://www.timetemperature.com/tzmaps/europe-time-zone-map.gif)
 
