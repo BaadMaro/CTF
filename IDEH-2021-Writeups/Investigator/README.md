@@ -146,7 +146,7 @@ Slovene and Croatian are Slavic languages, both members of the South Slavic grou
 
 ![](http://travels.bowenplace.com/europe_2008/language/files/651px-slavic_languages.png)  
 
-We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the timzezone that we founded. 
+We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the timze zone that we founded. 
 
 ![](https://www.timetemperature.com/tzmaps/europe-time-zone-map.gif)
 
