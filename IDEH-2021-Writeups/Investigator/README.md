@@ -41,7 +41,7 @@ A file header is a 'signature' placed at the beginning of a file, so the operati
 Run strings on the file :
 
 ```bash
-strings factory.bz2                                                     2 ⨯
+strings factory.bz2                                                     
 JFIF
 Exif
 
