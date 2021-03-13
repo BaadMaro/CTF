@@ -52,7 +52,7 @@ We can see JFIF a the the beginning, it's a JPEG image. We need to fix the heade
 
 ```bash
  xxd factory.bz2 | less
-00000000: 425a 68e0 0010 4a46 4946 0001 0100 0001  BZh...JFIF......
+00000000: 425a 68e0 0010 4a46 4946 0001 0100 0001              BZh...JFIF......
 ```
 JPEG header : 
 https://en.wikipedia.org/wiki/List_of_file_signatures
