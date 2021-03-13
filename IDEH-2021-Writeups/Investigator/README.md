@@ -106,7 +106,7 @@ Image Size                      : 1040x690
 Megapixels                      : 0.718
 ```
 
-We have a gps latitude 45 deg 48' 0.15" and the gps altitude is missing. In the challenge description the solution is to find the plus code.  
+We have a gps latitude 45 deg 48' 0.15" and the gps longitude is missing. In the challenge description the solution is to find the plus code.  
 
 Plus Codes are like street addresses for people or places that don’t have one. Instead of addresses with street names and numbers, Plus Codes are based on latitude and longitude, and displayed as numbers and letters.  
 
