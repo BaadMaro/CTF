@@ -45,7 +45,7 @@ strings factory.bz2                                                     2 ⨯
 JFIF
 Exif
 
-.............
+
 ```
 
 We can see JFIF a the the beginning, it's a JPEG image. We need to fix the header to recover the image.
@@ -63,7 +63,7 @@ FF D8 FF E0 00 10 4A 46 49 46 00 01 ÿØÿà..JFIF..
 Using any Hex editor to fix the file header and save the new file as .jpg. I used Ghex. 
 
 ```bash
-file factory1.jpg
+file factory.jpg
 factory1.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=5, xresolution=74, yresolution=82, resolutionunit=1, GPS-Data], progressive, precision 8, 1040x690, components 3
 ```
 
