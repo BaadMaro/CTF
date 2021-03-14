@@ -23,7 +23,7 @@ As you know the encryption in RSA requires the public key which means modulus N 
 `e = 65537` is commonly used as a public exponent in the RSA cryptosystem.
 
 An RSA modulus is the product of two secret prime numbers p and q : N = pq.
-for factoring we goona use [factordb](http://factordb.com/)
+for factoring we gonna use [factordb](http://factordb.com/)
 ````
 n = 50949155494298606720156954091892517583265242208454601889241428835440365430753
 q = 222812004210523246854601954625515044629
