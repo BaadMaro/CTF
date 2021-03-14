@@ -127,7 +127,7 @@ The GPS latitude 45 deg 48' 0.15" is in the DMS(Degrees Minutes Seconds) format 
 ```
 ![](http://sncyear8geography.weebly.com/uploads/5/7/7/8/57782431/8484702.png)
 
-Something missing from GPS latitude, 45°-46° North or South ?
+Something missing from GPS latitude, 45° - 46° North or South ?
 
 We start using the text in the image "renault rabljena vozila". After searhing we find some croatian, solvenian language. Using google translet :
 
@@ -146,7 +146,7 @@ Slovene and Croatian are Slavic languages, both members of the South Slavic grou
 
 ![](http://travels.bowenplace.com/europe_2008/language/files/651px-slavic_languages.png)  
 
-We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the timze zone that we founded. 
+We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the time zone that we founded. 
 
 ![](https://www.timetemperature.com/tzmaps/europe-time-zone-map.gif)
 
