@@ -17,9 +17,9 @@
 
 ## Detailed solution  
 
-The challenge description tell us to try unlocking the zip file and has the word **KNOWN** upercase which we should take it as a hint.  
+The challenge description tell us to try unlocking the zip file and has the word **KNOWN** upercase which mean we should take it as a hint.  
 
-I tired first to crack the zip encryption key, i extract the pkzip hash using **zip2john** and try to crack it using **john** and **hashcat** with the known wordlist **rockyou** but no success. 
+I tired first to crack the zip encryption key, i extract the pkzip hash using **zip2john** and try to crack it using **john** and **hashcat** with the known wordlist **rockyou** but with no success. 
 
 I start searching for attacks used to crack zip files, i finded some talks about an attack called **known-plaintext attack** which match the hint from our challenge.  
 
@@ -74,7 +74,7 @@ xxd plaintext
 00000020: 6167 6520 3e3e 3e                        age >>>
 ````
 
-We run bkcrack : 
+We run bkcrack with our zip, the vdi file insid the zip and the plaintext that we know : 
 
 ./bkcrack -C important.zip -c backup_of_the_virtual_machine.vdi -p plaintext  
 
