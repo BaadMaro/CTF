@@ -17,7 +17,7 @@
 
 ## Detailed solution  
 
-The challenge description tell us to try unlocking the zip file and has the word **KNOWN** upercase which mean we should take it as a hint.  
+The challenge description tell us to try unlocking the zip file and has the word **KNOWN** uppercase which mean we should take it as a hint.  
 
 I tired first to crack the zip encryption key, i extract the pkzip hash using **zip2john** and try to crack it using **john** and **hashcat** with the known wordlist **rockyou** but with no success. 
 
