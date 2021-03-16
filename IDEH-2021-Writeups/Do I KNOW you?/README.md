@@ -88,7 +88,7 @@ bkcrack 1.0.1 - 2021-03-15
 Wrote deciphered text.
 ````
 
-Let's read the our flag file
+Let's read the flag file
 
 
 ## Flag
