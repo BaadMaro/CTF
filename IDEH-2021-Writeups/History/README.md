@@ -47,7 +47,7 @@ We reconize the first part from the flag "ideh{th0s3_b45t3rd5" we can assume tha
   
 Decoding "kwYURONVgzTjBNR3d6WDIxNVgyUTBkRFI5Q2c9PQo=" has produce some random caracteres so probably it's the missing part.  
 
-The CTRl_H from the challenge filename is a keyboard shortcut for bash used to delete the character before the cursor. So we know that a part has been deleted.   
+The **CTRL_H** from the challenge filename is a keyboard shortcut for bash used to delete the character before the cursor. So we know that a part has been deleted.   
 
 Lets combine ZWNobyBhV1JsYUh0MGFEQnpNMTlpTkRWME0zSmtOVj and kwYURONVgzTjBNR3d6WDIxNVgyUTBkRFI5Q2c9PQo= and decode it : 
 
