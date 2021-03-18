@@ -364,7 +364,7 @@ the key of freedom is : idehcitinptevent
 As Easy aS Cooking Bacon Chips : uppercase hint for AES CBC encryption  
 the key of freedom is : idehcitinptevent -> encryption key = idehcitinptevent   
 
-So we have an AES CBC Encyption  
+So we have an AES CBC Encryption  
 
 https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation    
 
@@ -372,7 +372,8 @@ https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
 
 ![image](https://user-images.githubusercontent.com/72421091/111702477-9a1ded80-883c-11eb-93f2-735c60d15a89.png)
 
-We have the ciphertext 91a413f0b000245c02b7a74e24ab2b0b the IV usefulstringhaha and the key idehcitinptevent.   
+We have the ciphertext 91a413f0b000245c02b7a74e24ab2b0b, the IV usefulstringhaha and the key idehcitinptevent.   
+  
 We need to decrypt the text using AES CBC decryption. I'll use pycrypto   
 
 ```python 
