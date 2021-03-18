@@ -14,7 +14,7 @@
 
 Start by opening the given link and exploring pages, nothings there.  
 
-I checked for the Robots.txt file i fonded some files/directories. The one that was working is a dic file : 
+I checked for the Robots.txt file i found some files/directories. The one that was working is a dic file : 
 
 ```
 /755f85c2723bb39381c7379a604160d8/dic
