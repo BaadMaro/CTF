@@ -19,7 +19,7 @@
 Starting by download and extract the attached zip file. we found a pcapng file
 
 We use Wireshark to open the file. I started by searching for an HTTP request.
-Using the filtre **http** i finded some intersting requests at the end :
+Using the filtre **http** i found some intersting requests at the end :
 
 ````
 11073	153.361891194	192.168.43.1	192.168.43.135	HTTP	539	GET /script HTTP/1.1 
