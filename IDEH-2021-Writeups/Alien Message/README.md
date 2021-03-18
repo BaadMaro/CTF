@@ -18,7 +18,7 @@
 Analysing the text by eyes, i can assume that it's base32/64 encoding  
 using cyberchef and decode the text with **base32**  
 
-I finded two words IDEH and CTF, we can replace by 1 and 0  
+I found two words IDEH and CTF, we can replace by 1 and 0  
 
 ```
 111111111111111111111111111111111111111111111111111111111111111111
