@@ -10,7 +10,7 @@
 
 ## Attached files
 
-- [flag](flag)
+- [FLAG](FLAG)
 
 ## Detailed solution
 
