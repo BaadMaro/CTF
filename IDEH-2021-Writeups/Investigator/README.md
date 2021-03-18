@@ -146,7 +146,7 @@ Slovene and Croatian are Slavic languages, both members of the South Slavic grou
 
 ![](http://travels.bowenplace.com/europe_2008/language/files/651px-slavic_languages.png)  
 
-We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the time zone that we founded. 
+We know now that the GPS latitude is North, we search between parallel 45° and 46° North and use also the time zone that we found. 
 
 ![](https://www.timetemperature.com/tzmaps/europe-time-zone-map.gif)
 
@@ -184,7 +184,7 @@ Our lattitude 45.80004° N is close to parrallel 46° N so we need to do some re
 
 ![image](https://user-images.githubusercontent.com/72421091/111044670-3ebdbb00-844a-11eb-907f-20f028ec8a76.png)
 
-I started checking images from the places founded in search in the area 45° to 46° N. Getting close to lattitude 45.80004° N i founded a place in Novo mesto, 8000, Slovenia : 
+I started checking images from the places found in search in the area 45° to 46° N. Getting close to lattitude 45.80004° N i found a place in Novo mesto, 8000, Slovenia : 
 ![image](https://user-images.githubusercontent.com/72421091/111045012-1636c080-844c-11eb-9161-10f3d9d93021.png)
 
 Checking images and 360 street view we finally found our place @45.8000934,15.1740731 which is our lattitude 45.80004° 
