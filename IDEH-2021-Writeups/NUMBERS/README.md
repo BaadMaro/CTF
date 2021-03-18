@@ -19,7 +19,7 @@ We check our file, we found some numbers and {}
 ```
 73 68 69 72 { 78 117 98 69 82 115 95 110 85 109 98 69 82 83 }
 ```  
-73 is the decimal value of the caractere I so we can convert the numbers from decimal to ascii to get our flag.  
+73 is the decimal value of the caractere 'I' so we can convert the numbers from decimal to ascii to get our flag.  
 
 ![image](https://user-images.githubusercontent.com/72421091/111684900-9469dd00-8827-11eb-808c-cfb94bad0539.png)
 
