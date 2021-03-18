@@ -16,7 +16,7 @@
 
 
 ## Detailed solution
-The challenge talk about a file founded at one of the company's computers. The file represent a list of commands which is similar to a bash history file.  
+The challenge talk about a file found at one of the company's computers. The file represent a list of commands which is similar to a bash history file.  
 
 Start looking at the file, we found some base64 encoding strings : 
 
