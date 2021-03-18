@@ -68,16 +68,16 @@ the text file has some weird code
       E¨flag
 23 14 15 22 52 33 22 52 23 41 52 42 22 23 41 52 15 41 33 42 15 36 23 13
 ```
-I tried to google some of these lines and i finded that the code corresponds to **APL**, an array-oriented programming language.  
+I tried to google some of these lines and i find that the code corresponds to **APL**, an array-oriented programming language.  
   
 https://en.wikipedia.org/wiki/APL_(programming_language)  
 https://en.wikipedia.org/wiki/APL_syntax_and_symbols 
 
-I searched for how the code work and instruction syntax, i finded this cool website : 
+I searched for how the code work and instruction syntax, i found this cool website : 
 
 https://tryapl.org/ 
 
-I Started to play with some instrcutions and start digging with our code. I finded that ⎕ is used to print data, so i used it to analyze our code : 
+I Started to play with some instrcutions and start digging with our code. I found that ⎕ is used to print data, so i used it to analyze our code : 
 ```
       A ← 'abcdefghijklmnopqrstuvwxy_1234567890'
       ⎕ ← A
