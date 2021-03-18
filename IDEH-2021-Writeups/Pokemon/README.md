@@ -26,7 +26,7 @@ pi pi pi pi pi pi pi pi pi pi pika pipi pi pipi pi pi pi pipi pi pi pi pi pi pi 
 -->
 ````
 
-After searching, i finded that it's a **Brainfuck** based language called **Pikalang**.  
+After searching, i found that it's a **Brainfuck** based language called **Pikalang**.  
 Pikalang is a programming language based on the BrainFuck language but whose operators are substituted by the cries of the Pokemon Pikachu. Thus, from a code written in BrainFuck, the following table helps to match the code in Pikalang :
 
 ````
