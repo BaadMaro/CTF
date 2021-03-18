@@ -3,9 +3,9 @@
 
 
 ![date](https://img.shields.io/badge/date-17.03.2021-brightgreen.svg)  
-![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg) 
-![misc category](https://img.shields.io/badge/category-misc-lightgrey.svg)
-![score](https://img.shields.io/badge/score-300-blue.svg)
+![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg)   
+![misc category](https://img.shields.io/badge/category-misc-lightgrey.svg)  
+![score](https://img.shields.io/badge/score-300-blue.svg)  
 
 
 ## Attached files
