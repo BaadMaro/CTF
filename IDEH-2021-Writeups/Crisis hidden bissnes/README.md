@@ -30,7 +30,7 @@ dirb http://131.94.144.47/ dic
 + http://131.94.144.47/creds.txt (CODE:200|SIZE:189)
 ==> DIRECTORY: http://131.94.144.47/top_secret/
 ```  
-We finded the file creds.txt and the directory top_secret let's open them.  
+We found the file creds.txt and the directory top_secret let's open them.  
 
 The creds.txt has some logins with email:password  
 
