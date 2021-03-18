@@ -21,9 +21,9 @@ The challenge description tell us to try unlocking the zip file and has the word
 
 I tired first to crack the zip encryption key, i extract the pkzip hash using **zip2john** and try to crack it using **john** and **hashcat** with the known wordlist **rockyou** but with no success. 
 
-I start searching for attacks used to crack zip files, i finded some talks about an attack called **known-plaintext attack** which match the hint from our challenge.  
+I start searching for attacks used to crack zip files, i found some talks about an attack called **known-plaintext attack** which match the hint from our challenge.  
 
-I started read more about the attack, i finded a cool article [ZIP known plaintext attacks in-depth exploitation](https://www.programmersought.com/article/13436370754/) that explain it with details.  
+I started read more about the attack, i found a cool article [ZIP known plaintext attacks in-depth exploitation](https://www.programmersought.com/article/13436370754/) that explain it with details.  
 
 In the past, known plaintext attack need to have a complete plaintext file in the encrypted zip file and require the plaintext to be compressed with the same standard, so that the attack may be successful.
 
