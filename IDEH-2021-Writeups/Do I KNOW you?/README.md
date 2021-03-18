@@ -31,7 +31,7 @@ But there is some attacks that require only a small part of the plaintext bytes 
 
 - **Paper** : ZIP Attacks with Reduced Known Plaintext https://math.ucr.edu/~mike/zipattacks.pdf
 
-I founded a tool called **Bkcrack** that crack zip encryption with Biham and Kocher's known plaintext attack. We have an explaination in the usage part and a cool demonstration in the tutorial file.   
+I found a tool called **Bkcrack** that crack zip encryption with Biham and Kocher's known plaintext attack. We have an explaination in the usage part and a cool demonstration in the tutorial file.   
 
 https://github.com/kimci86/bkcrack   
 https://github.com/kimci86/bkcrack/blob/master/example/tutorial.md
