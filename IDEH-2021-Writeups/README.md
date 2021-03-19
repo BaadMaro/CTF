@@ -1,7 +1,7 @@
 ## Solved
 Challenge | Category | Difficulty | Value
 ----------|:---------|:-----------|:-------
-[Investigator](Investigator) | MISCELLANEOUS | Ninja | 400
+[Investigator](Investigator) | Misc | Ninja | 400
 [Man](Man) | Misc | Hard | 300
 [Pokemon](Pokemon) | Misc | Medium | 200
 [Sea](Sea) | Misc | Easy | 50
