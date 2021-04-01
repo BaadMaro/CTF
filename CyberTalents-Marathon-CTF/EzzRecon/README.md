@@ -26,7 +26,7 @@ Checking the page source view-source:http://ec2-18-196-160-18.eu-central-1.compu
    <p class="help-text text-end"><a href="http://ct.ctfeasy.unaux.com/">Forgot password?</a></p>
 </div>
 ``` 
-Opening http://ct.ctfeasy.unaux.com/ we can a text **have you ever recon before**
+Opening http://ct.ctfeasy.unaux.com/ we can a text **have you ever recon before** ( when i solved the challenge this website was not working)
 
 It's a hint to do reconnaissance. The challenge name also has the same hint. 
 
