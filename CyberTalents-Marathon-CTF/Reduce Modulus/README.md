@@ -11,7 +11,7 @@
 
 ## Attached files
 
-- 
+- [reduce-modulus.py](reduce-modulus.py)
 
 ## Detailed solution
 
