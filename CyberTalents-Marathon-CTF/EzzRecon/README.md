@@ -1,5 +1,6 @@
 
-# Challenge Name: password hint
+# Challenge Name: EzzRecon
+
 
 
 ![date](https://img.shields.io/badge/date-08.03.2021-brightgreen.svg)  
