@@ -2,7 +2,7 @@
 # Challenge Name: password hint
 
 
-![date](https://img.shields.io/badge/date-02.03.2021-brightgreen.svg)  
+![date](https://img.shields.io/badge/date-04.03.2021-brightgreen.svg)  
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
 ![crypto category](https://img.shields.io/badge/category-Forensics-blueviolet.svg)   
 ![level](https://img.shields.io/badge/level-Medium-blue.svg)
