@@ -1,4 +1,4 @@
-# Writups for Cybertalents Marathon CTF 2021
+# Writeups for Cybertalents Marathon CTF 2021
 
 ## Description
 
