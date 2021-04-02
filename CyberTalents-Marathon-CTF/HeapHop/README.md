@@ -16,7 +16,7 @@
 
 ## Detailed solution  
 
-The description : the first 3 bytes from heaps
+The description mention : the first 3 bytes from heaps, memory adresses  
 
 We start by extract the HeapHop56348583746.tar.7z and after the chall.tar. We found chall.vmem, it's a VMEM file.  
 
