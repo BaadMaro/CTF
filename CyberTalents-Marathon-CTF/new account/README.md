@@ -50,9 +50,10 @@ We can use a tool called deepBlueCLI, it's a PwerShell Module for Threat Hunting
 
 https://github.com/sans-blue-team/DeepBlueCLI  
 
-![image](https://user-images.githubusercontent.com/72421091/113418911-51c70980-93be-11eb-8bb3-d0103898337a.png)
+![image](https://user-images.githubusercontent.com/72421091/113419657-c9496880-93bf-11eb-9b94-091fd5b63b3c.png)
 
-As we can see a user with name Sam has been created and added to the local administrators group  
+
+As we can see a user with the name Sam has been created and added to the local administrators group  
 
 Flag format is the md5 of the username  
 
