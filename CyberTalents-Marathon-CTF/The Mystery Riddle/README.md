@@ -1,5 +1,6 @@
 
-# Challenge Name: Flasher
+# Challenge Name: The Mystery Riddle
+
 
 
 ![date](https://img.shields.io/badge/date-31.03.2021-brightgreen.svg)  
