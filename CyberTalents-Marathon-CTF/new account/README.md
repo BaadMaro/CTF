@@ -46,7 +46,7 @@ We found the event id 4732, a member with the User SID S-1-5-21-792323161-214100
   
 **Bonus**  
 
-We can use a tool called deepBlueCLI, it's a PwerShell Module for Threat Hunting via Windows Event Logs  
+We can use a tool called deepBlueCLI, it's a PowerShell Module for Threat Hunting via Windows Event Logs  
 
 https://github.com/sans-blue-team/DeepBlueCLI  
 
