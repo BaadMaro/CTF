@@ -1,5 +1,5 @@
 
-# Challenge Name: password hint
+# Challenge Name: Python Art
 
 
 ![date](https://img.shields.io/badge/date-18.03.2021-brightgreen.svg)  
