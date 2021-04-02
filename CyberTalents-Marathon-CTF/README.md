@@ -10,6 +10,8 @@ https://cybertalents.com/competitions/marathon-ctf/
 
 I got 14th place with 1575 points. 
 
+- Full scoreboard : https://cybertalents.com/competitions/marathon-ctf/scoreboard
+
 Congrats to the winners and thanks to the cybertalents team for the event
 
 ![image](https://user-images.githubusercontent.com/72421091/113455991-f0298e00-9403-11eb-84ca-0b4102a7c1c3.png)
