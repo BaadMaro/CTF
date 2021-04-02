@@ -43,7 +43,7 @@ After main end we can see some jumps and comparaison
 
 ![image](https://user-images.githubusercontent.com/72421091/113430087-7a0c3380-93d1-11eb-873b-ac9d60fd51b6.png)
 
-At the end we can a see call for strcmp to compare our input with the secret flag and print ```You are a legend o_*``` if we use the right input
+At the end we can see a call for strcmp to compare our input with the secret flag and print ```You are a legend o_*``` if we use the right input
 
 ![image](https://user-images.githubusercontent.com/72421091/113430183-a1630080-93d1-11eb-8e6f-4d1621f8b8f7.png)
 
