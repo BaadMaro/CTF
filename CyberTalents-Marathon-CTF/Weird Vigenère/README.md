@@ -1,5 +1,5 @@
 
-# Challenge Name: Flasher
+# Challenge Name: Weird Vigenère
 
 
 ![date](https://img.shields.io/badge/date-31.03.2021-brightgreen.svg)  
