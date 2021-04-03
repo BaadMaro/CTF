@@ -49,7 +49,7 @@ p2 = 103063943630687425230399745410466615279125356292442540958979279268474247260
 ```  
 We already know that the first par and seconf part of the modulus share same primes Primes[0] and Primes[1], and the first part containes 4 primes but we only find 2 and r1 = Primes[2] * Primes[3] 
 
-I was not able de factorise r1 so i started searching for other RSA attacks. In our case we have a multi prime RSA, i found that we can use the n2 if it's larger than the message. 
+I was not able to factorise r1 so i started searching for other RSA attacks. In our case we have a multi prime RSA, i found that we can use the n2 if it's larger than the message. 
 
 So to reduced the modulus we need to use the second component of the public key which is a prime factor N(n2) = Primes[0] * Primes[1] = p1 * q1 = p2 * q2 
 
