@@ -19,7 +19,7 @@
 
 The challenge description talk about some secret signals used by drug dealers.  
 
-The log file is a CAN dump from a car, we can see that the ID 188 have multiple lines, after researching we find that id 188 is refering to car blink (challenge name hint).  
+The log file is a CAN dump from a car, we can see that the ID 188 have multiple lines, after doing some research we find that id 188 is refering to car blink (challenge name hint).  
 
 Let's take only the 188 ID values  
 
