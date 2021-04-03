@@ -70,7 +70,7 @@ Our main text contains :
 
 I tried to decrypt the ciphert text using variant beaufort cipher with the key coranaflag but no success 
 
-We know that our flag formt is flag{} so i used the option "known plaintext word" to decrypt with mode "BEAUFORT CLASSIC (KEY-TXT)" 
+We know that our flag format is flag{} so i used the option "known plaintext word" to decrypt with mode "BEAUFORT CLASSIC (KEY-TXT)" 
 
 ![image](https://user-images.githubusercontent.com/72421091/113424928-dc146b00-93c8-11eb-83be-b765e892cfd6.png)
 
