@@ -29,8 +29,8 @@ cat candump-2020-11-30_044734.log | cut -d ' ' -f3 | grep '188#' | cut -d '#' -f
 [can.txt](can.txt)  
 
 We have two values 010000 and 020000 
-   - Right turn signal: 02000000 
-   - Left turn signal: 01000000  
+   - Right turn signal: 020000
+   - Left turn signal: 010000  
    
 We can replace one of them by 0 and other by 1 and see. I created a Python 3 script  
   
