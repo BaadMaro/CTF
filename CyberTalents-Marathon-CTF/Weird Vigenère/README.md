@@ -83,7 +83,7 @@ So to get the flag we need to decrypt our variant beaufort ciphertext with the k
 
 The hint for the key was also mentioned in ```Lo0k*uP*G3t>K3y!!!4B0V3%%Y0u2:PH34d*w0W#h45Ht4G#!T23Nd1nG;gg)``` 
 
-Lo0k*uP*G3t>K3y!!!4B0V3%%Y0u2 -> Look up get key above you -> roof 
+Lo0k*uP*G3t>K3y!!!4B0V3%%Y0u2 -> Look up get key above you -> ROOF  
 
 ## Flag
 
