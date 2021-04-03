@@ -1,5 +1,5 @@
 
-# Challenge Name: password hint
+# Challenge Name: Bad Request
 
 
 ![date](https://img.shields.io/badge/date-02.03.2021-brightgreen.svg)  
