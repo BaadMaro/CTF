@@ -99,8 +99,6 @@ Non-debugging symbols:
 Let's add a breakpoint at the strcmp function and run the file 
 
 ```  
-(gdb) breakpoint strcmp@plt
-Undefined command: "breakpoint".  Try "help".
 (gdb) break strcmp@plt
 Breakpoint 1 at 0x1070
 (gdb) run
