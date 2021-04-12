@@ -17,7 +17,7 @@ Challenge | Category | Value
 [Robots](Robots) | Web |  100
 []() | []() | []()
 [lorem ipsum](lorem%20ipsum) | Crypto |  150
-[What an Enigma?](What%20an%20Enigma?) | Crypto |  100
+[What an Enigma?](What%20an%20Enigma%3F) | Crypto |  100
 []() | []() | []()
 [Revision](Revision) | Misc |  200
 []() | []() | []()
