@@ -64,7 +64,7 @@ else:
     print('WRONG')
 # okay decompiling snek.pyc
 ```  
-We can see that the input is compared to a decypted flag 
+We can see that the input is compared to a decrypted flag 
 
 We can make a simple Python script to decrypt it 
 
