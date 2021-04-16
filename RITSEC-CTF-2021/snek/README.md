@@ -22,7 +22,7 @@ snek: python 3.7 byte-compiled
 ```  
 It's a pyc file, a compiled bytecode of Python code 
 
-We need to deompile it to get the source code. i'll use the Python byte-code decompiler **uncompyle6**
+We need to decompile it to get the source code. i'll use the Python byte-code decompiler **uncompyle6**
 
 https://pypi.org/project/uncompyle6/ 
 ```  
