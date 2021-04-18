@@ -82,7 +82,7 @@ nikto -h http://chals5.umdctf.io:4003
 + Allowed HTTP Methods: OPTIONS, GET, HEAD
 ```
 
-We can see that we have the HTTP Methode **HEAD **  
+We can see that we have the HTTP Methode **HEAD**  
 
 Let's use the http method HEAD and check the output  
 
