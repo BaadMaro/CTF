@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/135epDZ18MdIycbBt_Fekbi8hdF-83v6Y?usp=sha
 
 ## Detailed solution
 
-https://futureboy.us/stegano/ made by Alan Eliasen and use steghdie to encode/decode  
+https://futureboy.us/stegano/ made by Alan Eliasen and use steghide to encode/decode  
 
 We have two wav files ```rickroll.wav``` and ```together-forever-encoded.wav``` 
 
