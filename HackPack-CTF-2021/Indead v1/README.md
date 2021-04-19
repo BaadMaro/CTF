@@ -25,7 +25,7 @@ Uploading an image and checking the requests i found that the file has been uplo
 
 Checking the source page i found some tags which is a php webshell https://gist.github.com/joswr1ght/22f40787de19d80d110b37fb79ac3985 
 
-I didn't check the upload using a fake image php webshell so i just used the php shell that i found 
+I didn't check the upload using a fake image php webshell so i just used the php shell that i found (challenge link is down now :/)
 
 We know from hint that the flag.txt is in /var/www/ so i listed the files inside /var/www to verify 
   
