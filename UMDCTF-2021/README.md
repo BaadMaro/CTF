@@ -1,11 +1,15 @@
 # Writeups for UMDCTF 2021
  
 
-## Description
+## Description  
+
 UMDCTF 2021 is the fifth annual cybersecurity competition event created and hosted by students in the cybersecurity club at University of Maryland, College Park. Teams of 5 will compete side-by-side in various challenges created by UMD students in the cybersecurity club that will test their speed, knowledge, and skill in various areas of cybersecurity.
 
-https://ctftime.org/event/1288
-## Points
+https://ctftime.org/event/1288  
+
+## Points  
+
+484 teams
 
 ![image](https://user-images.githubusercontent.com/72421091/115188901-2427d300-a0d5-11eb-93de-6697972cf04a.png)
 
