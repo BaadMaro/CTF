@@ -6,7 +6,7 @@
 ![date](https://img.shields.io/badge/date-17.04.2021-brightgreen.svg)  
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
 ![crypto category](https://img.shields.io/badge/category-Init-blueviolet.svg)   
-![score](https://img.shields.io/badge/score-100-blue.svg)
+![value](https://img.shields.io/badge/value-100-blue.svg)
 
 
 
