@@ -1,4 +1,4 @@
-# Challenge Name: Traveling
+# Challenge Name: MemeCTF 2 Electric Boogaloo
 
 
 
