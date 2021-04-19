@@ -22,7 +22,7 @@ https://drive.google.com/drive/folders/1D9dBgba101Tp7R4hlBG4-CmGqmafoDtq?usp=sha
 
 Starting by looking at the picture from google drive link 
 
-[Building.jpg](Building.jpg)
+![](Building.jpg)
 
 We can see the street plate with 500 Pine 
 
