@@ -44,9 +44,10 @@ drwxr-xr-x 11 kali kali 220 Apr 19 04:13 objects
 drwxr-xr-x  3 kali kali  60 Apr 19 04:13 refs
 ```
 
-Let's check the git log for commits 
+Let's check the git log for commits ```git log -p```
 
-![image](https://user-images.githubusercontent.com/72421091/115181011-7a414a00-a0c6-11eb-820f-5babb6b71c8a.png)
+![image](https://user-images.githubusercontent.com/72421091/115181236-fb98dc80-a0c6-11eb-8610-30da59375e7d.png)
+
 
 We got our flag
 
