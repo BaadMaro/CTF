@@ -8,7 +8,7 @@
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
 ![crypto category](https://img.shields.io/badge/category-Web-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-250-blue.svg)  
-![score](https://img.shields.io/badge/score-/10-ff69b4.svg)
+![score](https://img.shields.io/badge/score-5/10-ff69b4.svg)
 
 ## Description
 
