@@ -62,7 +62,7 @@ The files has been downloaded from a gitlab repository https://gitlab.com/thehac
 
 ![image](https://user-images.githubusercontent.com/72421091/116103519-312d5f00-a69f-11eb-997f-9c19f201bccd.png)
 
-**.payload.sh file **
+**.payload.sh file**
 
 ```bash
 #!/bin/bash
