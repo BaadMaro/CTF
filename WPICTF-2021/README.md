@@ -11,7 +11,8 @@ https://ctftime.org/event/1288
 
 266 teams
 
-![image](https://user-images.githubusercontent.com/72421091/116014177-862b8f80-a623-11eb-9125-681bd44d5d73.png)
+![image](https://user-images.githubusercontent.com/72421091/116028650-20e99580-a647-11eb-8650-97d843219a37.png)
+
 
 
 
