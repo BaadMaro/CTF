@@ -15,6 +15,38 @@ I swear I didn't realize what I was naming it until I submitted the challenge
 
 ## Detailed solution
 
+Start by checking some details about the file 
+
+```
+file glute.png
+
+glute.png: PNG image data, 699 x 699, 8-bit/color RGBA, non-interlaced
+```
+```
+exiftool glute.png
+
+ExifTool Version Number         : 12.16
+File Name                       : glute.png
+Directory                       : .
+File Size                       : 335 KiB
+File Modification Date/Time     : 2021:04:24 04:15:04+00:00
+File Access Date/Time           : 2021:04:24 04:15:04+00:00
+File Inode Change Date/Time     : 2021:04:26 03:46:11+00:00
+File Permissions                : rw-r--r--
+File Type                       : PNG
+File Type Extension             : png
+MIME Type                       : image/png
+Image Width                     : 699
+Image Height                    : 699
+Bit Depth                       : 8
+Color Type                      : RGB with Alpha
+Compression                     : Deflate/Inflate
+Filter                          : Adaptive
+Interlace                       : Noninterlaced
+Image Size                      : 699x699
+Megapixels                      : 0.489
+```
+
 Checking strings in the image i found a PDF string ```%PDF-1.7``` which is the version of a PDF file
 
 Let's run **binwalk** to check for embedded files  
@@ -80,7 +112,11 @@ file *
 46837:      TIFF image data, big-endian, direntries=5
 ```
 
+We can see multiple files let's check them
+
 We can see our flag in the pdf file 45BEA 
+
+![image](https://user-images.githubusercontent.com/72421091/116027151-a23f2900-a643-11eb-9114-481dcc6b0a9f.png)
 
 ## Flag
 
