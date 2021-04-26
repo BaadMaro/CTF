@@ -10,7 +10,7 @@
 
 I got a hold of a packet capture between a suspicious client and server. It looks really strange, could you take a look?
 
-[capture.pcap]
+[capture.pcapng](capture.pcapng)
 
 ## Detailed solution
 
