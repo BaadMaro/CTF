@@ -47,6 +47,8 @@ I intercept the login request and start brutforcing using top students emails an
 
 I used a simple wordlist https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Common-Credentials/10-million-password-list-top-100.txt 
 
+We can see the correct credentials with a 302 redirection while incorrect credentials show Invalid username/password  
+
 We found all top students credentials 
 
 ```
