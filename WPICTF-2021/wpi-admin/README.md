@@ -40,7 +40,7 @@ dennisb@uupeye.edu
 sherrim@uupeye.edu
 adams@uupeye.edu
 ```
-I intercept the login request and start brutforcing using top students emails and a wordlist for passwords  
+I intercept the login request and start brutforcing using top students emails and a wordlist for passwords  https://portswigger.net/support/using-burp-to-brute-force-a-login-page
   
 
 ![image](https://user-images.githubusercontent.com/72421091/116030177-83906080-a64a-11eb-8d3a-40235389b285.png)
