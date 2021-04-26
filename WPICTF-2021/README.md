@@ -20,5 +20,11 @@ https://ctftime.org/event/1288
 
 Challenge | Category | Value      
 ----------|:---------|:-----------
-[a](a) | Steganography |  100 
+[DFIR](DFIR) | Forensics |  400 
 []() | []() | []()
+[wpi-admin-2](wpi-admin-2) | Web |  250
+[wpi-admin](wpi-admin) | Web |  200
+[]() | []() | []()
+[suspicious-traffic](suspicious-traffic) | Steganography |  200
+[]() | []() | []()
+[Baby's First Reversing](Baby's%20First%20Reversing) | Reversing |  50
