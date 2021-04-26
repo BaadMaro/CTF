@@ -108,5 +108,5 @@ To get the flag we need to combine all characters using the position i fron i=-4
 ## Flag
 
 ```
-WPI{P0lyGlOtz_R_koo1}
+WPI{h@5E h0P3!}
 ```
