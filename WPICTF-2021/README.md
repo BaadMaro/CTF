@@ -26,5 +26,6 @@ Challenge | Category | Value
 [wpi-admin](wpi-admin) | Web |  200
 []() | []() | []()
 [suspicious-traffic](suspicious-traffic) | Steganography |  200
+[glute](glute) | Steganography |  150
 []() | []() | []()
 [Baby's First Reversing](Baby's%20First%20Reversing) | Reversing |  50
