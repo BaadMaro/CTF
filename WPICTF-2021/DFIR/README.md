@@ -163,7 +163,7 @@ So we can access the server using SSH as root
 ### Fix
 
 - Disable direct root ssh login
-- Change the passowrds for root and victem, use a strong one and also you can use ssh keys for better security    
+- Change the passwords for root and victem, use a strong one and also you can use ssh keys for better security    
 - Upgrade OpenSSH to latest version
 
 Some best practices explained by liveoverflow  
