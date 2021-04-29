@@ -5,7 +5,7 @@
 
 Fourth annual WPICTF, hosted by Worcester Polytechnic Institute Cyber Security Club.
 
-https://ctftime.org/event/1288  
+https://ctftime.org/event/1208  
 
 ## Points  
 
