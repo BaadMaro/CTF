@@ -31,5 +31,5 @@ We can see the flag in the css file https://no-right-click.hsc.tf/useless-file.c
 ## Flag
 
 ```
-flag{keyboard_shortcuts_or_taskbar}
+flag{keyboard_shortcuts_or_taskbar} 
 ```
