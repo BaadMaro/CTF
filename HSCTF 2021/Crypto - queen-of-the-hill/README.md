@@ -1,4 +1,4 @@
-# Challenge Name: LSBlue
+# Challenge Name: queen-of-the-hill
 
 ![date](https://img.shields.io/badge/date-15.06.2021-brightgreen.svg)  
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
