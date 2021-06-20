@@ -30,7 +30,7 @@ Warm function cut a string into 3 parts using the index of "l" and in the end it
 
 We can find easy the a part but c and b can have different values. the only thing that we know about c and b that b end with "l"
 
-So the part ```c + b``` can produce differents c and b up to **27 combinations** that can give us the same output after using the warm function 
+So the part ```c + b``` can produce differents c and b up to **27 combinations** in our case that can give us the same output after using the warm function 
 
 So in the end we gonna find 27 flag that match the condition ```(flag.length() == 33 && hot(warm(cool(cold(flag)))).equals("4n_3nd0th3rm1c_rxn_4b50rb5_3n3rgy"))``` but the correct one should have the flag format **flag{}**
  
