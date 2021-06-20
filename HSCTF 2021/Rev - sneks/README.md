@@ -94,6 +94,8 @@ We need to create a reverse script to decrypt output and get our flag
 
 For the input i'm gonna do a quick edit and replace space with new line [sneak-output.txt](sneak-output.txt)
 
+[rev-sneak.py](rev-sneak.py)
+
 ```python
 import sys
 import string
