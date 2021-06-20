@@ -51,7 +51,7 @@ Megapixels                      : 0.845
 
 Let's use Stegsolve https://github.com/zardus/ctf-tools/blob/master/stegsolve/install 
 
-colour inversion(xor) show the flag image 
+colour inversion(xor) show the flag image  
 
 
 ![solved](https://user-images.githubusercontent.com/72421091/122659336-13e0b280-d16f-11eb-87ce-fdd21f29dbda.png)
