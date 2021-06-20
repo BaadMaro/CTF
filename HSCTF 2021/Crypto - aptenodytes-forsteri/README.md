@@ -18,7 +18,7 @@ Here's a warmup cryptography challenge. Reverse the script, decrypt the output, 
 
 We need to reverse the script and use the output to decrypt the flag  
 
-- The flag is a string that start with flag{ and and with }   
+- The flag is a string that start with flag{ and end with }   
 - Uppercase letters used in encoding   
 - We need to find the flag characters that it give us the encoded characters (output.txt) with letters[(letters.index(flag_chars)+18)%26]  
 
