@@ -92,7 +92,7 @@ if __name__ == '__main__':
 ```  
 We need to create a reverse script to decrypt output and get our flag 
 
-For the input i'm gonna do a quick edit and replace space with new line [snek-output.txt](snek-output.txt)
+For the input i'm gonna do a quick edit and replace space with new line [sneak-output.txt](sneak-output.txt)
 
 ```python
 import sys
