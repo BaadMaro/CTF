@@ -22,9 +22,9 @@ Encryption key:
 
 ## Detailed solution
 
-We have a mentien for **Hill** in the description let's search for Hill cipher https://en.wikipedia.org/wiki/Hill_cipher 
+We have a mention for **Hill** in the description let's search for Hill cipher https://en.wikipedia.org/wiki/Hill_cipher 
 
-Hill cipher use a matrice n x n as key with is similar to the encryption key in the description  
+Hill cipher use a matrice n x n as key wich is similar to the encryption key in the description  
 
 Let's decode the Hill ciphertext with the key matrice 3x3 i'll use https://www.dcode.fr/hill-cipher 
 
