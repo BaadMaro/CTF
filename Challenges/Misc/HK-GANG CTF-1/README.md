@@ -2,7 +2,7 @@
 
 
 ![date](https://img.shields.io/badge/date-01.07.2021-brightgreen.svg)  
-![misc category](https://img.shields.io/badge/category-WMisc-blueviolet.svg)   
+![misc category](https://img.shields.io/badge/category-Misc-blueviolet.svg)   
 ![level](https://img.shields.io/badge/level-Easy-blue.svg)
 
 
