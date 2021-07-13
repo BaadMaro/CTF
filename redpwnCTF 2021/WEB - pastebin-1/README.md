@@ -116,6 +116,5 @@ We got our flag
 ## Flag
 
 ```
-
 flag{d1dn7_n33d_70_b3_1n_ru57}
 ```
