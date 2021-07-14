@@ -69,7 +69,7 @@ app.post('/flag', (req, res) => {
 ```
 We can see the sql query used to login ```"SELECT * FROM users WHERE username='" + req.body.username + "' AND password='" + req.body.password + "'"``` 
 
-To bypass login and get the flag we need to use the username admin (rows[0].username === "admin") and make the quert true without knowing the password
+To bypass login and get the flag we need to use the username admin (rows[0].username === "admin") and make the query true without knowing the password
 
 Let's perform some sql injection in the password parametre. I'm gonna use burp
 
