@@ -15,7 +15,7 @@ Challenge link : https://github.com/hamza07-w/spaceBox
 
 
 
-### Web app setup
+## Web app setup
 
 For a better experience we need to setup a web server to run the web application. 
 
@@ -67,7 +67,7 @@ drwxr-xr-x 2 root root     80 Oct 10 21:16 img
 drwxr-xr-x 2 root root     80 Oct 10 21:16 posts
 -rw-r--r-- 1 root root    728 Oct 10 21:16 posts.php
 ```
-This challenge require a write permissions to be able to upload files. if the upload via web server dosen't try other solutions
+This challenge require a write permissions to be able to upload files. if upload via web server dosen't work try other solutions.
 
 Details : https://askubuntu.com/questions/767504/permissions-problems-with-var-www-html-and-my-own-home-directory-for-a-website
 
@@ -269,7 +269,7 @@ ID           Response   Lines    Word       Chars       Payload
 ```
 We found the password for the user hamza it's ```password```
 
-Let's login now with hamza:password
+Let's login now with ```hamza:password```  
 
 After the login we got a 302 redirect to index.php with a Set-Cokkie header
 
@@ -297,13 +297,14 @@ admin -> base64 encode -> YWRtaW4= -> url encode -> YWRtaW4%3D
   -> you can use Cyberchef : https://gchq.github.io/CyberChef/#recipe=To_Base64('A-Za-z0-9%2B/%3D')URL_Encode(true)&input=YWRtaW4
 New cookie : user=YWRtaW4%3D
 
-Add it using google dev tools and don't forget the administrator path 
+Add the new cookie and don't forget the administrator path 
 ![image](https://user-images.githubusercontent.com/72421091/136717914-f1b55e63-7377-4fbc-b41d-dbbfd2508944.png)
 
 Now let's open http://spacebox.hkg/administrator/dashboard.php with the new cookie that has the admin user
 
 ![image](https://user-images.githubusercontent.com/72421091/136717993-6ff0c36d-847f-4b15-9673-796b8c0934a9.png)
 
+We are admin now
 We can see a note that tell us the upload directory which is /posts
 We already found some php files after bruteforcing 1.php and test.php
 
@@ -345,9 +346,13 @@ We got the reverse shell let's check the app folder
 
 We found our flag
 
+## Flag
+
 ```
 flag{4ae4a92ee0b7b95860376038423ca74783f7f99799124db57f021bbbb14ee741f4f6ff0b3f732bebf7aca59acdf103cc2e16b362cbd835401046297265097997}
 ```
+## Feedback
+
 
 
 
