@@ -332,7 +332,7 @@ Change ip to localhost if you listen from the same machine or another ip if you 
 
 ![image](https://user-images.githubusercontent.com/72421091/136720366-69fedb49-530b-47c8-9345-ec9354434dd6.png)
 
-Run a netcat listner
+Run a netcat listener
 
 ![image](https://user-images.githubusercontent.com/72421091/136720490-2249bb89-153a-428c-a5b4-cc7b734700ac.png)
 
