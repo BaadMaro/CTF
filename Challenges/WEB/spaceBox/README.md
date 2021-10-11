@@ -355,9 +355,9 @@ flag{4ae4a92ee0b7b95860376038423ca74783f7f99799124db57f021bbbb14ee741f4f6ff0b3f7
 
 - Try to create a docker image for the challenge.
 - It better to have the login page show you "user/password incorrect" message in the same page after bad login attempt. Also you can manage login workflow with the same file login.php no need for cookies.php
-- If you login with user hamza it's better to change text at index.php to show login, hide the logout and edit the welcome message
+- If you login with user hamza it's better to change text at index.php to show login as hamza, hide the logout and edit the welcome message
 - Posts upload need a fix : file_put_contents("posts/".$filename."php", $content); --> file_put_contents("posts/".$filename.".php", $content);
-- some typo fixes in differents files 
+- some typo fixes in differents files ex: dashboaed, welcom, forbiden..
 - Try to list posts for exemple at posts/index.php -> list of published articles
 
 
