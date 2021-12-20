@@ -128,3 +128,15 @@ We have a 100% match, it's **acetylcholinesterase readthrough isoform [synthetic
 ![image](https://user-images.githubusercontent.com/72421091/146811462-3b34a418-44a7-4e80-ac07-6b15cbbdeeae.png)
 
 Acetylcholinesterase (AChE) is a cholinergic enzyme primarily found at postsynaptic neuromuscular junctions, especially in muscles and nerves.
+
+## Flag
+
+```
+X-MAS{acetylcholinesterase}
+```
+
+## Ressources
+
+https://towardsdatascience.com/starting-off-in-bioinformatics-turning-dna-sequences-into-protein-sequences-c771dc20b89f  
+https://www.geeksforgeeks.org/dna-protein-python-3/  
+https://blast.ncbi.nlm.nih.gov/Blast.cgi  
