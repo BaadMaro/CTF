@@ -12,5 +12,5 @@ Challenge | Category | Value
 ----------|:---------|:-----------
 [Having a BLAST](https://github.com/BaadMaro/CTF/tree/main/X-MAS%20CTF%202021%20Second%20Weekend) | Bioinformatics |  50
 []() | []() | []()
-[Mem-X]() | Web |  72
+[Mem-X](https://github.com/BaadMaro/CTF/tree/main/X-MAS%20CTF%202021%20Second%20Weekend/Mem-X) | Web |  72
 []() | []() | []()
