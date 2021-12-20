@@ -10,7 +10,7 @@ https://ctftime.org/event/1525
 
 Challenge | Category | Value      
 ----------|:---------|:-----------
-[Having a BLAST](https://github.com/BaadMaro/CTF/tree/main/X-MAS%20CTF%202021%20Second%20Weekend) | Bioinformatics |  50
+[Having a BLAST](https://github.com/BaadMaro/CTF/tree/main/X-MAS%20CTF%202021%20Second%20Weekend/Having%20a%20BLAST) | Bioinformatics |  50
 []() | []() | []()
 [Mem-X](https://github.com/BaadMaro/CTF/tree/main/X-MAS%20CTF%202021%20Second%20Weekend/Mem-X) | Web |  72
 []() | []() | []()
