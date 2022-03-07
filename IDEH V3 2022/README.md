@@ -18,5 +18,5 @@ Challenge | Category | Value
 []() | Steganography |  
 []() | Steganography |  
 []() | []() | []()
-[]() | Web |  72
+[]() | Reverse |  10
 []() | []() | []()
