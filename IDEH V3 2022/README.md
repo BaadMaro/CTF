@@ -11,7 +11,7 @@ https://ctftime.org/event/1596
 
 Challenge | Category | Value      
 ----------|:---------|:-----------
-[]() | Stegano |  50
+[Acoustic Phonetics](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Acoustic%20Phonetics) | Stegano |  20
 []() | Stegano |  50
 []() | Stegano |  50
 []() | Stegano |  50
