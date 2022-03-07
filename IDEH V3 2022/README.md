@@ -12,8 +12,9 @@ https://ctftime.org/event/1596
 Challenge | Category | Value      
 ----------|:---------|:-----------
 [Acoustic Phonetics](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Acoustic%20Phonetics) | Steganography |  20
+[Golden Bug 1843](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Golden%20Bug%201843) | Steganography |  20
 [Fsociety](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Fsociety) | Steganography |  10
-[]() | Steganography |  50
+
 []() | Steganography |  50
 []() | Steganography |  50
 []() | Steganography |  50
