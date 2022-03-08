@@ -1,8 +1,8 @@
-# Challenge Name: MarketFLOW
+# Challenge Name: Loose Funding Interest 2
 
 
 ![date](https://img.shields.io/badge/date-08.03.2022-brightgreen.svg)  
-![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
+![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg)       
 ![category](https://img.shields.io/badge/category-WEB-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-40-blue.svg)  
 
