@@ -22,3 +22,5 @@ Challenge | Category | Value
 []() | []() | []()
 [Ziploop](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Misc/ZIPLOOP) | Misc | 20
 []() | []() | []()
+[Calling Goertzel](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Forensics/Calling%20Goertzel) | Forensics | 10
+[]() | []() | []()
