@@ -24,3 +24,7 @@ Challenge | Category | Value
 []() | []() | []()
 [Calling Goertzel](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Forensics/Calling%20Goertzel) | Forensics | 10
 []() | []() | []()
+[The Urban Turing Machine](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/The%20Urban%20Turing%20Machine) | Crypto | 5
+[]() | Crypto | 5
+[]() | Crypto | 5
+[]() | []() | []()
