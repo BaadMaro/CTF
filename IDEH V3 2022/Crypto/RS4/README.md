@@ -2,7 +2,7 @@
 
 
 ![date](https://img.shields.io/badge/date-07.03.2022-brightgreen.svg)  
-![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg) 
+![solved after CTF](https://img.shields.io/badge/solved-after%20CTF-red.svg)  
 ![category](https://img.shields.io/badge/category-Crypto-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-15-blue.svg)  
 
