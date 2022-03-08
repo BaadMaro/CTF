@@ -20,3 +20,5 @@ Challenge | Category | Value
 []() | []() | []()
 [Simple CAuthentification](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Reverse/Simple%20CAuthentification) | Reverse |  10
 []() | []() | []()
+[Ziploop](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Misc/ZIPLOOP) | Misc | 20
+[]() | []() | []()
