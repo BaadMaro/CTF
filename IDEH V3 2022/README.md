@@ -25,6 +25,9 @@ Challenge | Category | Value
 [Calling Goertzel](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Forensics/Calling%20Goertzel) | Forensics | 10
 []() | []() | []()
 [The Urban Turing Machine](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/The%20Urban%20Turing%20Machine) | Crypto | 5
-[]() | Crypto | 5
-[]() | Crypto | 5
+[Nocab](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/Nocab) | Crypto | 5
+[RS4](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/RS4) | Crypto | 15
+[]() | []() | []()
+[MarketFLOW](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/MarketFLOW) | WEB | 20
+[The Magic of the PHP](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/MarketFLOW/The%20Magic%20of%20the%20PHP) | WEB | 35
 []() | []() | []()
