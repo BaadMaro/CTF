@@ -11,7 +11,7 @@ https://ctftime.org/event/1596
 
 Challenge | Category | Value      
 ----------|:---------|:-----------
-[The Magic of the PHP](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/MarketFLOW/The%20Magic%20of%20the%20PHP) | WEB | 35
+[The Magic of the PHP](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/The%20Magic%20of%20the%20PHP) | WEB | 35
 [MarketFLOW](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/MarketFLOW) | WEB | 20
 []() | []() | []()
 [Acoustic Phonetics](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Acoustic%20Phonetics) | Steganography |  20
