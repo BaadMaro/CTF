@@ -108,7 +108,9 @@ Now let's decrypt the message using :
 
 ```bash
 python3 rsa-cm.py -c1 <ciphertext1> -c2 <ciphertext2> -k1 <publickey1> -k2 <publickey2>
-```
+```  
+
+![image](https://user-images.githubusercontent.com/72421091/157154229-e51efa16-7a65-4dd7-aee3-3ab6d21b0d0a.png)
 
 ## Flag
 
@@ -116,4 +118,4 @@ python3 rsa-cm.py -c1 <ciphertext1> -c2 <ciphertext2> -k1 <publickey1> -k2 <publ
 CRISIS{N0_54m3_M0dulu5}
 ```
 
-![image](https://user-images.githubusercontent.com/72421091/157154229-e51efa16-7a65-4dd7-aee3-3ab6d21b0d0a.png)
+
