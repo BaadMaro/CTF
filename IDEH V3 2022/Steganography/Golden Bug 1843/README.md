@@ -37,7 +37,7 @@ The story involves cryptography with a detailed description of a method for solv
 
 ![image](https://user-images.githubusercontent.com/72421091/156956747-806d4952-2aae-443c-bd9b-df45fb2c1282.png)
 
-You can solve the cipher using letter frequencies but we're coming from the futur, as it's a simple substitution cipher we already now the conversion table x)  
+You can solve the cipher using letter frequencies but we're coming from the future, as it's a simple substitution cipher we already now the conversion table x)  
  
 ![image](https://user-images.githubusercontent.com/72421091/156957175-ac8a5af1-8ee0-4a9f-8a4b-e4407b2ee4c4.png)  
 
