@@ -22,6 +22,7 @@ Challenge | Category | Value
 []() | []() | []()
 [Ziploop](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Misc/ZIPLOOP) | Misc | 20
 []() | []() | []()
+[Dont kNow Alot](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/Dont%20kNow%20Alot) | Crypto | 20
 [RS4](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/RS4) | Crypto | 15
 [The Urban Turing Machine](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/The%20Urban%20Turing%20Machine) | Crypto | 5
 [Nocab](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/Nocab) | Crypto | 5
