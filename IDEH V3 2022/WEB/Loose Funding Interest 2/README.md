@@ -29,13 +29,13 @@ http://35.178.97.233/index.php?file=pages/news.html
 
 We have a **file** parametre that take the location of file to display it. We probably can exploit local file inclusion
 
-Let's try to read /etc/password  
+Let's try to read /etc/passwd
 
 http://35.178.97.233/index.php?file=../../../../../../../../../etc/passwd
 
 ![image](https://user-images.githubusercontent.com/72421091/157304152-6cd0cc76-9154-477a-8d59-fa65657b2c5d.png)
 
-As we can see we were able to use LFI to read the /etc/passsword file now let's read the index.php
+As we can see we were able to use LFI to read the /etc/passwd file now let's read the index.php
 
 If we try to read directly the index.php file we gonna get some errors  
 
