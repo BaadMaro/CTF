@@ -29,6 +29,7 @@ Challenge | Category | Value
 [The Urban Turing Machine](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/The%20Urban%20Turing%20Machine) | Crypto | 5
 [Nocab](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Crypto/Nocab) | Crypto | 5
 []() | []() | []()
+[Wallet Recover](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Reverse/Wallet%20Recover) | Reverse |  30
 [Simple CAuthentification](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Reverse/Simple%20CAuthentification) | Reverse |  10
 []() | []() | []()
 [Calling Goertzel](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Forensics/Calling%20Goertzel) | Forensics | 10
