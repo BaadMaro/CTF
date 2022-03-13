@@ -1,8 +1,9 @@
-# Challenge Name: Shades Of Sky Blue
+# Challenge Name: Hack0r
+
 
 
 ![date](https://img.shields.io/badge/date-13.03.2022-brightgreen.svg)  
-![unsolved](https://img.shields.io/badge/unsolved-red.svg)    
+![solved](https://img.shields.io/badge/solved-after%20CTF-red.svg)    
 ![category](https://img.shields.io/badge/category-Steganography-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-15-blue.svg)  
 
@@ -134,12 +135,31 @@ StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
 └─$ cat hacker.jpg.out                                                                                                                    
 INJESU2JKN5XG5    
 ```
-
-# Recap
+I found that a file was hidden in hack3r.jpg file using passphrase cDQ1NXcwcmQ=
 
 ```
-cDQ1NXcwcmQ= => p455w0rd   
-SURFSA== => IDEH
-65LTGNTHKTD5
-INJESU2JKN5XG5
+┌──(kali㉿kali)-[~/hackers]
+└─$ stegseek -wl ../1.txt hack3r.jpg
+StegSeek 0.6 - https://github.com/RickdeJager/StegSeek
+
+[i] Found passphrase: "cDQ1NXcwcmQ="
+[i] Original filename: "hack3r.txt".
+[i]
+Extracting to "hack3r.jpg.out".
+```
+
+```
+┌──(kali㉿kali)-[~/hackers]
+└─$ cat hack3r.jpg.out
+BTM42G4327GE2V  
+```
+
+65LTGNTHKTD5, INJESU2JKN5XG5 and BTM42G4327GE2V are base32 encoded
+
+with the order "INJESU2JKN5XG5BTM42G4327GE2V65LTGNTHKTD5" we can get our flag using base32 decoding
+
+## Flag
+
+```
+CRISIS{st3g4no_15_us3fuL}
 ```
