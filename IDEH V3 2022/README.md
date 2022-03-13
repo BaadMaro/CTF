@@ -17,6 +17,7 @@ Challenge | Category | Value
 []() | []() | []()
 [Acoustic Phonetics](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Acoustic%20Phonetics) | Steganography |  20
 [Golden Bug 1843](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Golden%20Bug%201843) | Steganography |  20
+[Shades Of Sky Blue](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Shades%20Of%20Sky%20Blue) | Steganography |  10
 [Fsociety](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/Fsociety) | Steganography |  10
 [PDF stagano](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Steganography/PDF%20stagano) | Steganography |  5
 []() | []() | []()
