@@ -7,6 +7,8 @@ The competition is jeopardy style, contains the usual challenges along with new 
 
 https://ctftime.org/event/1596
 
+https://www.facebook.com/CIT.INPT
+
 ## Solved 
 
 Challenge | Category | Value      
@@ -35,3 +37,5 @@ Challenge | Category | Value
 [Simple CAuthentification](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Reverse/Simple%20CAuthentification) | Reverse |  10
 []() | []() | []()
 [Ziploop](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Misc/ZIPLOOP) | Misc | 20
+[]() | []() | []()
+[Workshops flags](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/Workshops) | Workshop | X
