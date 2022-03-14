@@ -150,8 +150,6 @@ CRISIS{1c93286e3}
 
 ## Flag
 
-## Flag
-
 ```
 CRISIS{1c93286e3}
 ```
