@@ -1,6 +1,6 @@
 # Workshops flags
 
-During the event there were some conferences and workshops with some flags ( i don't know if they use it as challenges at the end of CTF)
+During the event there were some conferences and workshops with some flags shown a the stream ( i don't know if they use it as bonus points at the end of CTF)
 
 You can find streams here https://www.facebook.com/CIT.INPT 
 
