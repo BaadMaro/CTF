@@ -72,7 +72,7 @@ Looking at the code we can see a for loop analyzing our input to compare it with
 
 - after each charactere we found, the page will return you waited **X** seconds" with X equal to the size of our right input until the last charactere wich will return the **$FLAG**  
 
-I created a python script to find the characters used in the password one by one. The funny thing i didn't now whats wrong for days until i realize that i forgot to add the test for flag test cas :disappointed_relieved:
+I created a python script to find the characters used in the password one by one. The funny thing i didn't now whats wrong for days until i realize that i forgot to add the  flag test cas :disappointed_relieved:
 
 ```python
 import requests, string
