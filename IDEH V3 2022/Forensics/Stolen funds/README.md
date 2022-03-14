@@ -1,7 +1,7 @@
 # Challenge Name: Stolen funds
 
 
-![date](https://img.shields.io/badge/date-06.03.2022-brightgreen.svg)  
+![date](https://img.shields.io/badge/date-14.03.2022-brightgreen.svg)  
 ![solved](https://img.shields.io/badge/solved-after%20CTF-red.svg)  
 ![category](https://img.shields.io/badge/category-Forensics-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-40-blue.svg)  
@@ -19,6 +19,8 @@ A hacker has **withdrawn** funds from our contract, he might have left some trac
 
 ## Detailed solution
 
+Note : it's my first time with blockchain so forgive me if i did something wrong :sweat_smile:
+
 We can start by using Rinkeby Testnet Explorer to get more details about the adress 
 
 https://rinkeby.etherscan.io/address/0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2
@@ -29,7 +31,7 @@ We can start checking the transactions https://rinkeby.etherscan.io/txs?a=0x2040
 
 We need to focus the withdraw events, i exported all transactions in a csv file https://rinkeby.etherscan.io/exportData?type=address&a=0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2
 
-We can use a filter with the clomun "Methode" to list only ithdraw 
+We can use a filter with the clomun "Method" to list only ithdraw 
 
 The first withdraw transaction 0x0f17146850f45e45b660997a5e417793faa8a3a47ecdfdbcd1b3fe70fbdd69a6
 
@@ -50,7 +52,7 @@ If we decode the input data, we can see a ascii charactere "R"
 We rt recognizing the flag formt CRISIS. Now we need to grap all characteres manually or create a script 
 
 Script details :
-- I'll use the python library [Web3] ( https://web3py.readthedocs.io/en/stable/index.html) to connect to rinkeby network and extract transactions details  
+- I'll use the python library [Web3](https://web3py.readthedocs.io/en/stable/index.html) to connect to rinkeby network and extract transactions details  
 - To be able to interact with the rinkeby network we need to create a project in infora.io and use the project ID
 https://web3py.readthedocs.io/en/stable/examples.html#using-infura-rinkeby-node
 - For the list of withdraw transactions i'll use the exported csv to simplify the process
