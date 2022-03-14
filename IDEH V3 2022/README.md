@@ -12,6 +12,7 @@ https://ctftime.org/event/1596
 Challenge | Category | Value      
 ----------|:---------|:-----------
 [Loose Funding Interest 2](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/Loose%20Funding%20Interest%202) | WEB | 40
+[Side Channel](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/Side%20Channel) | WEB | 35
 [The Magic of the PHP](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/The%20Magic%20of%20the%20PHP) | WEB | 35
 [MarketFLOW](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V3%202022/WEB/MarketFLOW) | WEB | 20
 []() | []() | []()
