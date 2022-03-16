@@ -9,6 +9,8 @@ https://ctftime.org/event/1596
 
 https://www.facebook.com/CIT.INPT
 
+Some challenges are available at Crisis CTF platform in the training section : https://ctf.crisi5.com/
+
 ## Solved 
 
 Challenge | Category | Value      
