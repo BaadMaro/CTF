@@ -49,17 +49,17 @@ https://rinkeby.etherscan.io/tx/0xe3d91cdf7ecec6b0b4ce05dbd17340e3bff48dac8475ea
 
 If we decode the input data, we can see a ascii charactere "R"
 
-We rt recognizing the flag formt CRISIS. Now we need to grap all characteres manually or create a script 
+We can see  the flag format CRISIS. Now we need to grap all characteres manually or create a script 
 
 Script details :
 - I'll use the python library [Web3](https://web3py.readthedocs.io/en/stable/index.html) to connect to rinkeby network and extract transactions details  
-- To be able to interact with the rinkeby network we need to create a project in infora.io and use the project ID
+- To be able to interact with the rinkeby network we need to create a project in infura.io and use the project ID
 https://web3py.readthedocs.io/en/stable/examples.html#using-infura-rinkeby-node
 - For the list of withdraw transactions i'll use the exported csv to simplify the process
 - I was able to locate our input flag characteres to simplify the decoding 
 
 ```bash
-w3.eth.get_transaction('0xfc1da29d326e459b309d091827e906e46787805438389749e9f30dd452b934cd')
+>>> w3.eth.get_transaction('0xfc1da29d326e459b309d091827e906e46787805438389749e9f30dd452b934cd')
 AttributeDict({'accessList': [], 'blockHash': HexBytes('0x9ae06bee8782f4133e853566f7c29fe9b4c6a17458947950adde502f995a7c27'), 'block                             Number': 10259148, 'chainId': '0x4', 'from': '0x64bCf8EF116c2f3A39e3526bcF7400828563a6ed', 'gas': 30657, 'gasPrice': 1150001602, 'ha                             sh': HexBytes('0xfc1da29d326e459b309d091827e906e46787805438389749e9f30dd452b934cd'), 'input': '0x31fb67c2000000000000000000000000000                             000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000017d00000000000000000000000000000                             000000000000000000000000000000000', 'maxFeePerGas': 1150001667, 'maxPriorityFeePerGas': 1150001354, 'nonce': 325, 'r': HexBytes('0xc                             3150ab969e202e56d98791bff0ede61dfc8712c45a40dc577d80899b3708c9a'), 's': HexBytes('0x1d6cf1e880244a8a9c2902fc190d3621ab42d2ec039f80c3                             b3df95f8d62611f3'), 'to': '0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2', 'transactionIndex': 41, 'type': '0x2', 'v': 0, 'value': 0})
 
 >>> tx['input'][138:140]
