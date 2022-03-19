@@ -63,4 +63,90 @@ x = (984512 / (c - 69964)) + 69964
 
 ```
 
-R
+**Reversing get_val function**
+
+After reversing get_val values we need to use round to get integer numbers insted of float
+
+ we found a problem while trying to recover characters from integer numbers
+
+```
+UnicodeEncodeError: 'UCS-2' codec can't encode characters in position 32-32: Non-BMP character not supported in Tk
+```
+It's a problem with our console, it cannot handle  characters outside of the BMP like emojis
+
+https://stackoverflow.com/questions/32442608/ucs-2-codec-cant-encode-characters-in-position-1050-1050
+
+We can map all character outside BMP to a replacement character � https://en.wikipedia.org/wiki/Specials_%28Unicode_block%29#Replacement_character 
+
+```py
+import sys
+non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
+print(x.translate(non_bmp_map))
+```
+
+Here the solution for the challenge
+
+```py
+from math import *
+import sys
+
+enc = [69949.90776101458, 1.0186915887850467, 69949.90876951923, 1.0196078431372548, 69949.90352371817, 1.0277777777777777, 69949.90614710683, 1.017094017094017, 69949.90594534237, 1.0186915887850467, 69949.90473463427, 1.017391304347826, 69949.90715584248, 1.018181818181818, 69949.90614710683, 1.024390243902439, 69949.90917288068, 1.0208333333333333, 69949.90534001432, 1.04, 69949.90917288068, 1.02, 69949.90876951923, 1.0175438596491229, 69949.90392737999, 1.0212765957446808, 69949.90574357212, 1.02, 69949.90876951923, 1.0175438596491229, 69949.90392737999, 1.0212765957446808, 69981.0168870452, 1.0212765957446808, 69949.90513822675, 1.0178571428571428, 69949.90473463427, 1.0192307692307692, 69949.90372555197, 1.0166666666666666, 69949.90312003322, 1.2222222222222223]
+
+non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
+
+def calc(x,val):
+	return {
+		0: lambda x: (x+1)/(x-1),
+		1: lambda x: 984512/(x-69964)+69964
+	}[val](x)
+
+def rcalc(x,val):
+	return {
+		0: lambda x: (x+1)/(x-1),
+		1: lambda x: 69964 + (984512 / (x - 69964))
+	}[val](x)
+
+def get_val(x,i):
+	if ( i % 2 == 0 ):
+		return calc(x,1)
+	else:
+		return calc(x,0)
+def r_get_val(x,i):
+	if ( i % 2 == 0 ):
+		return rcalc(x,1)
+	else:
+		return rcalc(x,0)
+
+	
+flag = "" 
+i= 0
+a = ""
+t = ""
+
+for e in enc:
+    t = round(r_get_val(e,i))
+    a = chr(round(r_get_val(e,i))).translate(non_bmp_map)
+    # detecting characters outsid BMP
+    if e != get_val(ord(a),i):
+        print(str(e) + " " + str(i) + " " + str(a) + " " + str(t))
+    flag += a
+    i+=1
+
+print(flag)
+
+```
+
+Output
+
+```
+69981.0168870452 32 � 127819
+flag{InvolutionS_ar3_easy_peasy_�_squizy}
+```
+
+Our character has the unicode 127819 which is U+1f34b, a lemon emoji 🍋 https://emojiguide.org/lemon
+
+## Flag
+
+```
+flag{InvolutionS_ar3_easy_peasy_🍋_squizy}
+```
