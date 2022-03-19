@@ -15,7 +15,8 @@ Challenge | Category | Difficulty | Value
 []() | []() | []()
 [equat1onz](https://github.com/BaadMaro/CTF/blob/main/Zain%20CTF%202022/Crypto/equat1onz/README.md) | Cryptography | Easy | 50
 []() |  |  | 
-[]() |  |  | 
+[]() | []() | []()
+[squirrel](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Forensics/squirrel) | Forensics | Easy | 50
 []() |  |  | 
 []() |  |  | 
 []() |  |  | 
