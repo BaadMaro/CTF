@@ -13,7 +13,7 @@ Challenge | Category | Difficulty | Value
 ----------|:---------|:-----------|:-------
 [M4Lw4r3](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/General/M4Lw4r3) | General Information | Basic | 50
 []() | []() | []()
-[]() |  |  | 
+[equat1onz](https://github.com/BaadMaro/CTF/blob/main/Zain%20CTF%202022/Crypto/equat1onz/README.md) | Cryptography | Easy | 50
 []() |  |  | 
 []() |  |  | 
 []() |  |  | 
