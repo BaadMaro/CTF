@@ -126,7 +126,7 @@ t = ""
 for e in enc:
     t = round(r_get_val(e,i))
     a = chr(round(r_get_val(e,i))).translate(non_bmp_map)
-    # detecting characters outsid BMP
+    # detecting characters outside BMP
     if e != get_val(ord(a),i):
         print(str(e) + " " + str(i) + " " + str(a) + " " + str(t))
     flag += a
