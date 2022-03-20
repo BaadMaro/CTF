@@ -67,7 +67,7 @@ Checking the file show that it's a zip archive
 ![image](https://user-images.githubusercontent.com/72421091/159142029-2fa254ac-1923-482a-894d-12314a5a94d1.png)
 
 
-The zip file is protected by a password. Let's use the one from the first message **d0L1x65900Q**
+The zip file is protected by a password. Let's unzip it using the password from the first message **d0L1x65900Q**
 
 We found our flag inside data.txt file
 
