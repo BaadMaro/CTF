@@ -6,6 +6,9 @@ Zain is organizing a cybersecurity CTF for all talents in the Middle East where 
 
 https://cybertalents.com/competitions/zain-ctf-2022
 
+![image](https://user-images.githubusercontent.com/72421091/159188712-984b4e6c-2db0-4894-99ee-a538252290d7.png)
+
+
 
 ## Solved / Notes
 Challenge | Category | Difficulty | Value
