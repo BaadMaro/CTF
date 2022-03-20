@@ -19,10 +19,10 @@ Challenge | Category | Difficulty | Value
 []() | []() | []()
 [spectate](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Network/spectate) | Network security |  Easy | 50
 []() | []() | []()
-[M4Lw4r3](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/General/M4Lw4r3) | General Information | Basic | 50
-[]() | []() | []()
 [Obfjustu](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Web/Obfjustu) | Web |  Easy | 50
 []() | []() | []()
-[nj1nx](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Web/nj1nx) | Secure coding |  Easy | 50
+[M4Lw4r3](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/General/M4Lw4r3) | General Information | Basic | 50
 []() | []() | []()
-[Tearys](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Machines/Tearys) | Machines |  Medium | 100
+[nj1nx](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Secure%20Coding/nj1nx) | Secure coding |  Easy | 50
+[]() | []() | []()
+[Tearys (Unsolved)](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Machines/Tearys) | Machines |  Medium | 100
