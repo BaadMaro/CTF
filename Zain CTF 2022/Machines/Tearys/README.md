@@ -14,6 +14,7 @@ Target IP: 18.156.136.169
 
 ## Notes
 
+I wasn't able to solve the machine i just listed some notes here
 I started by running a nmap scan
 
 ```bash
@@ -249,5 +250,5 @@ Escape character is '^]'.
 ```
 
 We have two things to do :
-- try find the ssh key filename inside /home/grafana/.ssh/
+- try find the ssh key filename inside /home/grafana/.ssh/ using LFI
 - intercat with smtp and the email bob@tearys.corp
