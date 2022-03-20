@@ -6,7 +6,6 @@ Zain is organizing a cybersecurity CTF for all talents in the Middle East where 
 
 https://cybertalents.com/competitions/zain-ctf-2022
 
-## Solved 
 
 ## Solved
 Challenge | Category | Difficulty | Value
@@ -21,7 +20,8 @@ Challenge | Category | Difficulty | Value
 []() | []() | []()
 [spectate](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Network/spectate) | Network security |  Easy | 50
 []() |  |  | 
-[]() |  |  | 
+[]() | []() | []()
+[Email Address](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/OISNT/Email%20Address) | OSINT |  Easy | 50
 []() |  |  | 
 []() |  |  | 
 []() |  |  | 
