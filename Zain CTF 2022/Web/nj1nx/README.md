@@ -38,7 +38,7 @@ server {
 }
 ```
 
-The location /static dosen't end with / which lead to a path travaseral vulnerability in Nginx 
+The location /static dosen't end with / which lead to a path traversal vulnerability in Nginx 
 
 Details here : https://www.acunetix.com/vulnerabilities/web/path-traversal-via-misconfigured-nginx-alias/
 
