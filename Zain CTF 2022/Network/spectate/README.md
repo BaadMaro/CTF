@@ -1,4 +1,4 @@
-# Challenge Name: M4Lw4r3
+# Challenge Name: spectate  
 
 ![date](https://img.shields.io/badge/date-19.03.2021-brightgreen.svg)  
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
