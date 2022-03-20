@@ -23,5 +23,6 @@ Challenge | Category | Difficulty | Value
 []() | []() | []()
 [Email Address](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/OISNT/Email%20Address) | OSINT |  Easy | 50
 []() |  |  | 
-[]() |  |  | 
+[]() | []() | []()
+[Obfjustu](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Web/Obfjustu) | Web |  Easy | 50
 []() |  |  | 
