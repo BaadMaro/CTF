@@ -42,7 +42,7 @@ The location /static dosen't end with / which lead to a path traversal vulnerabi
 
 Details here : https://www.acunetix.com/vulnerabilities/web/path-traversal-via-misconfigured-nginx-alias/
 
-To fix that we nee d to add / to /static
+To fix that we need to add / to /static
 
 ```
 location /static/ {
