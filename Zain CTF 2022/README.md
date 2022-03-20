@@ -15,7 +15,7 @@ Challenge | Category | Difficulty | Value
 []() | []() | []()
 [squirrel](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Forensics/squirrel) | Forensics | Easy | 50
 []() | []() | []()
-[equat1onz](https://github.com/BaadMaro/CTF/blob/main/Zain%20CTF%202022/Crypto/equat1onz | Cryptography | Easy | 50
+[equat1onz](https://github.com/BaadMaro/CTF/blob/main/Zain%20CTF%202022/Crypto/equat1onz) | Cryptography | Easy | 50
 []() | []() | []()
 [spectate](https://github.com/BaadMaro/CTF/tree/main/Zain%20CTF%202022/Network/spectate) | Network security |  Easy | 50
 []() | []() | []()
