@@ -57,10 +57,9 @@ We found that the tcp stream 5 has an archive file identified by PK and data.txt
 
 ```
 
-Now let's choose raw output and save file 
+![image](https://user-images.githubusercontent.com/72421091/159142032-290d3466-278a-417f-9dbd-36656b9aaa88.png)  
 
-![image](https://user-images.githubusercontent.com/72421091/159142032-290d3466-278a-417f-9dbd-36656b9aaa88.png)
-
+Now let's choose raw output and save file  
 
 Checking the file show that it's a zip archive 
 
