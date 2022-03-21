@@ -222,7 +222,7 @@ ff02::2	ip6-allrouters
 
 **/home/grafana/.bash_history**
 
-- It a huge hint for the solution, we need to use the ssh key to connect to the machine
+- It a huge hint for the solution, we need to use the ssh key to connect to the machine  
 Unfortunately i wasn't able to find any key inside /home/grafana/.ssh/ 
 
 ```
@@ -235,7 +235,8 @@ ls -la
 cd .ssh/
 ls
 exit
-```
+```  
+   
 **SMTP**  
 
 Unfortunately smtp wasn't reachable from my network. i tried using another network and it's worked
