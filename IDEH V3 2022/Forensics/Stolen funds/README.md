@@ -21,17 +21,17 @@ A hacker has **withdrawn** funds from our contract, he might have left some trac
 
 Note : it's my first time with blockchain so forgive me if i did something wrong :sweat_smile:
 
-We can start by using Rinkeby Testnet Explorer to get more details about the adress 
+We can start by using Rinkeby Testnet Explorer to get more details about the address 
 
 https://rinkeby.etherscan.io/address/0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2
 
-The contract was created by the adress 0x64bCf8EF116c2f3A39e3526bcF7400828563a6ed
+The contract was created by the address 0x64bCf8EF116c2f3A39e3526bcF7400828563a6ed
 
 We can start checking the transactions https://rinkeby.etherscan.io/txs?a=0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2
 
 We need to focus the withdraw events, i exported all transactions in a csv file https://rinkeby.etherscan.io/exportData?type=address&a=0x20402a4F943786DdF55D4Ffaf09EEe6752e820e2
 
-We can use a filter with the clomun "Method" to list only ithdraw 
+We can use a filter with the clomun "Method" to list only withdraw 
 
 The first withdraw transaction 0x0f17146850f45e45b660997a5e417793faa8a3a47ecdfdbcd1b3fe70fbdd69a6
 
