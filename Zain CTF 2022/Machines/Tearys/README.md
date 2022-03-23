@@ -252,4 +252,4 @@ Escape character is '^]'.
 
 We have two things to do :
 - try find the ssh key filename inside /home/grafana/.ssh/ using LFI
-- intercat with smtp and the email bob@tearys.corp
+- interact with smtp and the email bob@tearys.corp
