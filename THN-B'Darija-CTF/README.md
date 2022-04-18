@@ -34,4 +34,5 @@ Challenge | Category | Value
 [Easy Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Easy%20Crypto) | Cryptography | 50  
 [this is super easy](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/this%20is%20super%20easy) | Cryptography | 50
 []() | []() | []()
+[Arcade Game](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/WEB/Arcade%20Game) | WEB | 150
 
