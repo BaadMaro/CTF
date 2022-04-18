@@ -31,3 +31,6 @@ Challenge | Category | Value
 []() | []() | []()
 [Baby Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Baby%20Crypto) | Cryptography | 50  
 [Easy Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Easy%20Crypto) | Cryptography | 50  
+[Shuffled](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Shuffled) | Cryptography | 100
+[]() | []() | []()
+
