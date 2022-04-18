@@ -38,6 +38,7 @@ Challenge | Category | Value
 [Easy Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Easy%20Crypto) | Cryptography | 50  
 [this is super easy](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/this%20is%20super%20easy) | Cryptography | 50
 []() | []() | []()
+[general informations 3](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Forensics/general%20informations%203) | Forensics | 5
 [general informations](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Forensics/general%20informations) | Forensics | 5
 
 
