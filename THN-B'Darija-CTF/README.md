@@ -29,3 +29,4 @@ Challenge | Category | Value
 [Plain sight](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Plain%20sight) | Misc | 150  
 [Postman](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Postman) | Misc | 150  
 []() | []() | []()
+[Baby Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Baby%20Crypto) | Cryptography | 50  
