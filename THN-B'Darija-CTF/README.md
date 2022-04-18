@@ -21,18 +21,22 @@ https://discord.gg/p4EQsZa8
 
 Challenge | Category | Value      
 ----------|:---------|:-----------
+[Morocco](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/BOX/Morocco) | BOX | 300
+[]() | []() | []()
+[Arcade Game](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/WEB/Arcade%20Game) | WEB | 150
+[]() | []() | []()
 [Impostor](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Steganography/Impostor) | Steganography | 100
 [Baby Steg](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Steganography/Baby%20Steg) | Steganography | 50
 []() | []() | []()
-[Container](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/OSINT/Container) | OSINT | 150
-[]() | []() | []()
 [Plain sight](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Plain%20sight) | Misc | 150  
 [Postman](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Postman) | Misc | 150  
+[]() | []() | []()
+[Container](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/OSINT/Container) | OSINT | 150
 []() | []() | []()
 [Shuffled](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Shuffled) | Cryptography | 100
 [Baby Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Baby%20Crypto) | Cryptography | 50  
 [Easy Crypto](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/Easy%20Crypto) | Cryptography | 50  
 [this is super easy](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Cryprography/this%20is%20super%20easy) | Cryptography | 50
 []() | []() | []()
-[Arcade Game](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/WEB/Arcade%20Game) | WEB | 150
+
 
