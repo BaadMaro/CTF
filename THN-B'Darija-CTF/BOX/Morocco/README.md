@@ -154,7 +154,7 @@ GENERATED WORDS: 4612
 ```
 I found a directory called /content
 
-http://159.65.224.214/content/ we can a the end of page the version `RiteCMS version v3.0`
+http://159.65.224.214/content/ we can see a the end of page the version `RiteCMS version v3.0`
 
 Searching for exploits, i found an Authenticated RCE exploit https://www.exploit-db.com/exploits/50616 
 
