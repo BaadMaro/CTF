@@ -307,8 +307,7 @@ Matching Defaults entries for spipa7 on ubuntu-s-1vcpu-1gb-nyc1-01:
 User spipa7 may run the following commands on ubuntu-s-1vcpu-1gb-nyc1-01:
     (r00t) /usr/bin/afrodisiac
     (root) /usr/bin/nmap
-$ file /usr/bin/afrodisiac
-/usr/bin/afrodisiac: cannot open `/usr/bin/afrodisiac' (No such file or directory)
+
 ```
 We can use nmap as sudo
 
