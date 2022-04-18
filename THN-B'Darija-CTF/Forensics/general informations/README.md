@@ -50,7 +50,7 @@ I didn't have a docker setup so i used WSL in Windows, it has the same ubuntu ve
 - sed -i 's/$(shell uname -r)/5.4.0-97-generic/g' Makefile
 - sudo apt update && sudo apt install -y linux-image-5.4.0-97-generic linux-headers-5.4.0-97-generic build-essential dwarfdump make zip
 - cd /volatility/
-- Make
+- make
 - zip ubuntu20.04-5.4.0-97-generic.zip module.dwarf /boot/System.map-5.4.0-97-generic
 - cp ubuntu20.04-5.4.0-97-generic.zip <volatility>/plugins/overlays/linux/
 
