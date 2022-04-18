@@ -27,4 +27,5 @@ Challenge | Category | Value
 [Container](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/OSINT/Container) | OSINT | 150
 []() | []() | []()
 [Plain sight](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Plain%20sight) | Misc | 150  
+[Postman](https://github.com/BaadMaro/CTF/tree/main/THN-B'Darija-CTF/Misc/Postman) | Misc | 150  
 []() | []() | []()
