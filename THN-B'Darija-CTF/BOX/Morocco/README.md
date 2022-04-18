@@ -68,7 +68,7 @@ Let's login to ftp using anonymous login
 
 ```bash
 ┌──(kali㉿kali)-[~]
-└─$ ftp 159.65.224.214                                                              148 ⨯ 3 ⚙
+└─$ ftp 159.65.224.214                                                              
 Connected to 159.65.224.214.
 220 (vsFTPd 3.0.3)
 Name (159.65.224.214:kali): Anonymous
