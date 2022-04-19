@@ -84,13 +84,6 @@ ftp> ls
 150 Here comes the directory listing.
 -rw-r--r--    1 0        0              25 Apr 05 23:05 backup
 226 Directory send OK.
-ftp> cd backup
-550 Failed to change directory.
-ftp> ls
-227 Entering Passive Mode (159,65,224,214,149,131).
-150 Here comes the directory listing.
--rw-r--r--    1 0        0              25 Apr 05 23:05 backup
-226 Directory send OK.
 ftp> ls -la
 227 Entering Passive Mode (159,65,224,214,245,57).
 150 Here comes the directory listing.
