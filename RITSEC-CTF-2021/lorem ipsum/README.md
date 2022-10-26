@@ -45,7 +45,7 @@ We can decrypt it manually or use a tool like https://www.dcode.fr/trithemius-av
 Output : 
 
 ```
-RSWTCHIMTTIONGAMEISWRTH
+RSTHISISTRITHEMIUS
 ```  
 The challenge description mention that the flag is case sensitive and we know that the flag format is RS{} 
 
