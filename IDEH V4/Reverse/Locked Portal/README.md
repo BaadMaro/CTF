@@ -142,7 +142,7 @@ print(''.join(p for p in param_1))
 ```
 We got our flag. We just need to add "}" at the end
 
-Here is the c code for our program [locked-portal.c](locked-portal.c)
+Here is the c code for our program [Locked-Portal.c](Locked-Portal.c)
 
 ## Flag
 
