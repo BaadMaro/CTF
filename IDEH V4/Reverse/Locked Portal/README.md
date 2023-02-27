@@ -29,7 +29,7 @@ I switched to ghidra to analyze our binary file and try to understand how the pa
 
 The program take our password input and use a function called check_password to check if we have acces or not
 
-Here is the decomplied main function 
+Here is the decompiled main function 
 
 ```c
 
@@ -55,7 +55,7 @@ void main(void)
 }
 ```
 
-Now let's check the function check_password 
+Now let's check the decompiled function check_password 
 
 ```c
 int check_password(char *param_1)
@@ -144,7 +144,7 @@ print(''.join(p for p in param_1))
 ```
 We got our flag. We just need to add "}" at the end
 
-Here is the c code for our program [Locked-Portal.c](Locked-Portal.c)
+Here is the C code for our program [Locked-Portal.c](Locked-Portal.c)
 
 ## Flag
 
