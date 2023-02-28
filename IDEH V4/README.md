@@ -31,5 +31,5 @@ Challenge | Category | Author | Value
 []() | []() | []()
 [Antediluvian](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V4/DFIR/Antediluvian) | DFIR | c3p0d4y | 50
 []() | []() | []()
-[Discord](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V4/Misc/Discord) | Misc | 50
-[Social Media](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V4/Misc/Social%20Media) | Misc | 50
+[Discord](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V4/Misc/Discord) | Misc | | 50
+[Social Media](https://github.com/BaadMaro/CTF/tree/main/IDEH%20V4/Misc/Social%20Media) | Misc | | 50
