@@ -33,7 +33,7 @@ If we search for "HAI 1.2", we will find that it's used in a language called LOL
 - I HAS A `variable name` ITZ `value` : to declare a variable with name and value
 - BTW [MESSAGE] : to put a message 
 
-You can use a decompiler to play with the language https://www.tutorialspoint.com/execute_lolcode_online.php
+You can use a compiler to play with the language https://www.tutorialspoint.com/execute_lolcode_online.php
 
 From the BTW message part, we understand that the flag has the variable name and we should use underscore between parts
 
