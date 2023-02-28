@@ -1,9 +1,5 @@
 # Writeups for IDEH V4 CTF 2023
 
-## Details
-
-To update 
-
 ## Scoreboard
 
 Team : 0x_SHilling  
