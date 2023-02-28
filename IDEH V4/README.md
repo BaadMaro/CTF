@@ -2,7 +2,14 @@
 
 ## Details
 
-To update
+To update 
+
+## Scoreboard
+
+![image](https://user-images.githubusercontent.com/72421091/221726953-16e0c1a9-b468-4d3b-90a3-799507555784.png)
+
+![image](https://user-images.githubusercontent.com/72421091/221727007-bb3ab924-ab99-41c2-abb1-fb54ef7fb776.png)
+
 
 ## Solved challenges
 
