@@ -30,7 +30,7 @@ If we search for "HAI 1.2", we will find that it's used in a language called LOL
 
 - HAI 1.2 : The version used which is 1.2
 - VISIBLE : to print a message
-- I HAS A <variable name> ITZ <value> : to declare a variable with name and value
+- I HAS A `variable name` ITZ `value` : to declare a variable with name and value
 - BTW [MESSAGE] : to put a message 
 
 You can use a decompiler to play with the language https://www.tutorialspoint.com/execute_lolcode_online.php
