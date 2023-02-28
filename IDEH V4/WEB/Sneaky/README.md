@@ -13,6 +13,8 @@ Think you have what it takes to crack our code? We've built this web application
 
 [https://ideh-sneaky.chals.io](https://ideh-sneaky.chals.io/)
 
+**Author**: j4kom
+
 ## Detailed solution
 
 After visting the webpage we can see a message Not allowed
