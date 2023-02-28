@@ -7,11 +7,17 @@
 ![value](https://img.shields.io/badge/value-200-blue.svg)  
 
 
-## Description
+## Description 
+
+https://ideh-flat.chals.io/
+
+**Author**: c3p0d4y
 
 ## Detailed solution
 
 We have a page with a logged user "guest". We have a cookie with username and isAdmin
+
+![2023-02-28_23h13_34](https://user-images.githubusercontent.com/72421091/221994481-80e10bf6-cc57-4e6c-8014-358a08e1d50b.png)
 
 ```
 Cookie: user=O%3A4%3A%22User%22%3A2%3A%7Bs%3A8%3A%22username%22%3Bs%3A5%3A%22guest%22%3Bs%3A7%3A%22isAdmin%22%3Bb%3A0%3B%7D
