@@ -91,7 +91,7 @@ Content-Type: text/html; charset=UTF-8
 ```
 We need to find a way to bypass login
 
-Php coercion or type juggling deal badly when if you want to combine multiple different data types together while using loose comparisons "==". It's has a known as Php type juggling  
+Php coercion or type juggling deal badly when if you want to combine different data types together. It's has a known vulnerability called Php type juggling when loose comparisons "=="
 
 More Details : 
 - https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf
