@@ -14,7 +14,7 @@ Oh wow! Now you can learn all about robots, with our latest web service, All Abo
   
 ## Detailed solution
 
-As mentioned in title and description we need to check robots.txt file
+As mentioned in the title and description, we need to check the robots.txt file
 
 http://challenge.nahamcon.com:30998/robots.txt
 
