@@ -1,7 +1,7 @@
 # Challenge Name: All About Robots
 
 
-![date](https://img.shields.io/badge/date-23.02.2023-brightgreen.svg)  
+![date](https://img.shields.io/badge/date-23.05.2024-brightgreen.svg)  
 ![solved in time of CTF](https://img.shields.io/badge/solved-in%20time%20of%20CTF-brightgreen.svg)   
 ![category](https://img.shields.io/badge/category-WEB-blueviolet.svg)   
 ![value](https://img.shields.io/badge/value-50-blue.svg)  
@@ -12,8 +12,6 @@ Author: @JohnHammond
   
 Oh wow! Now you can learn all about robots, with our latest web service, All About Robots!!  
   
-**Press the `Start` button on the top-right to begin this challenge.**
-
 ## Detailed solution
 
 As mentioned in title and description we need to check robots.txt file
