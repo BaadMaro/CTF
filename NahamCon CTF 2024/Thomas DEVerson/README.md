@@ -38,6 +38,10 @@ Now we need to get the exact time used for secret key to forge our cookie using 
 
 Getting the date http://challenge.nahamcon.com:32723/status
 
+```
+System healthy! Computing uptime... 82816 days 12 hours 41 minutes
+```
+
 ```python
 from datetime import datetime, timedelta
 
