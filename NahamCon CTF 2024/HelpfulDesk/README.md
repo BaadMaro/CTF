@@ -81,6 +81,12 @@ if (File.Exists(this._credsFilePath))
       }
 ```
 
+You can detect the bypass by manual testing or by decompiling version 1.2 to check the fix that's been done in `SetupController.cs`
+
+```
+if (((PathString) ref path).Value.TrimEnd('/').Equals("/Setup/SetupWizard", StringComparison.OrdinalIgnoreCase))
+```
+
 ![Pasted image 20240525222330](https://github.com/BaadMaro/CTF/assets/72421091/f0709f48-b517-466d-a836-237d5644385c)
 
 Let's create an account and use it for login
