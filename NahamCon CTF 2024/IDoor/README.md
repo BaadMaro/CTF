@@ -13,8 +13,6 @@ Author: @JohnHammond#6971
   
 It's Apple's latest innovation, the "iDoor!" ... well, it is basically the Ring Doorbell camera, but the iDoor offers a web-based browser to monitor your camera, and super secure using ultimate cryptography with even SHA256 hashing algorithms to protect customers! Don't even _think_ about snooping on other people's cameras!!  
   
-**Press the `Start` button on the top-right to begin this challenge.**
-
 ## Detailed solution
 
 Start by checking the challenge URL, we got a redirection to `/4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8`
@@ -22,9 +20,9 @@ http://challenge.nahamcon.com:31646/4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2e
 
 ![Pasted image 20240525182729](https://github.com/BaadMaro/CTF/assets/72421091/3e7c4708-bbb2-4e08-97cd-f0712f2e4bb4)
 
-As we can see we have the ID 11 and the URL identifier `4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8` which is the SHA256 value of 11
+As we can see, we have the ID 11 and the URL identifier `4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8` which is the SHA256 value of 11.
 
-We can generate sha256 hashes with numbers to find different camera
+We can generate SHA256 hashes with numbers to find different cameras IDs.
 
 ```bash
 #!/bin/bash
