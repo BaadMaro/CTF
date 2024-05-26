@@ -13,12 +13,6 @@ Author: @JohnHammond#6971
   
 Uhhh, someone made a Da Vinci Code fan page? But they spelt it wrong, and it looks like the website seems broken...  
   
-**Press the `Start` button on the top-right to begin this challenge.**
-
-**Connect with:**  
-
-- [http://challenge.nahamcon.com:32230](http://challenge.nahamcon.com:32230/)
-
 ## Detailed solution
 
 ![Pasted image 20240525235157](https://github.com/BaadMaro/CTF/assets/72421091/bdc15164-4cab-4981-b054-d33937ac2f19)
@@ -53,9 +47,9 @@ Content-Length: 0
 Connection: close
 ```
 
-We got PROPFIND and MOVE. It's used with web DAV which mentioned in the challenge as DAVinci
+We got PROPFIND and MOVE. It's used with web DAV, which mentioned in the challenge as DAVinci.
 
-We can get files location with PROPFIND and use MOVE to place the flag in a accessible directory
+We can get files location with PROPFIND and use MOVE to place the flag in an accessible directory.
 
 ```
 PROPFIND / HTTP/1.1
@@ -188,7 +182,7 @@ Connection: close
 
 The flag is located at /the_secret_dav_inci_code/flag.txt
 
-We can move it to static directory using MOVE method
+We can move it to the static directory using MOVE method
 
 ```http
 MOVE /the_secret_dav_inci_code/flag.txt HTTP/1.1
