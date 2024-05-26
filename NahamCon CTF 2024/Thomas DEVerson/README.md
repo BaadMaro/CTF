@@ -88,7 +88,8 @@ We got the secret key `THE_REYNOLDS_PAMPHLET-179708250845`
 Now let's generate our cookie
 
 ```
-└─$ flask-unsign -c "{'name': 'Jefferson'}" --secret "THE_REYNOLDS_PAMPHLET-179708250845" --sign
+flask-unsign -c "{'name': 'Jefferson'}" --secret "THE_REYNOLDS_PAMPHLET-179708250845" --sign
+
 eyJuYW1lIjoiSmVmZmVyc29uIn0.Zk-3WQ.WCy1txbI_4wuGzruToNF7FY14YQ
 ```
 
