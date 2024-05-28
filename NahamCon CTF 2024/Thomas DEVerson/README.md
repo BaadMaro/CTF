@@ -60,7 +60,7 @@ duration = timedelta(days=days, hours=hours, minutes=minutes)
 past_date = now - duration
 
 # Print the result
-print("past_date)
+print(past_date)
 ```
 
 I got 1797-08-25. I ignored the hour and minutes to try to find them accurately.
