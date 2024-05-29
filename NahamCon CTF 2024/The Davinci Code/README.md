@@ -182,7 +182,7 @@ Connection: close
 
 The flag is located at /the_secret_dav_inci_code/flag.txt
 
-We can move it to the static directory using MOVE method
+We can move it to the static directory using MOVE method for the flag file and specify the directory using Destination header
 
 ```http
 MOVE /the_secret_dav_inci_code/flag.txt HTTP/1.1
