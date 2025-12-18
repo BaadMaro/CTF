@@ -1,9 +1,9 @@
 # Challenge Name: r00t3r
 
-![date](https://img.shields.io/badge/date-18.12.2024-brightgreen.svg)  
-![category](https://img.shields.io/badge/category-WEB-blueviolet.svg)  
+![Date](https://img.shields.io/badge/Date-18.12.2024-brightgreen.svg)  
+![Category](https://img.shields.io/badge/Category-WEB-blueviolet.svg)  
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-blue.svg)  
-![value](https://img.shields.io/badge/value-X-blue.svg)  
+![Value](https://img.shields.io/badge/Value-X-blue.svg)  
 
 ## Description
 
