@@ -15,7 +15,11 @@ Author: [BuildHackSecure](https://x.com/BuildHackSecure)
 
 Start the challenge server and check the page https://uoa80ug0wea1.ctfhub.io/
 
-We got a redirection to `/login`. It's a login page : https://uoa80ug0wea1.ctfhub.io/
+We got a redirection to `/login`. It's a login page : https://uoa80ug0wea1.ctfhub.io/login
+
+
+<img width="2559" height="1529" alt="Pasted image 20251218212808" src="https://github.com/user-attachments/assets/d60a4b41-bd8a-4ae0-838c-496f727658b2" />
+
 
 As the challenge mentioned router, I checked default credentials from routersploit lists using hydra
 
