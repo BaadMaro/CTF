@@ -90,7 +90,7 @@ Accept-Encoding: gzip, deflate, br
 Priority: u=0, i
 Connection: keep-alive
 
-dns=192.241.156.84
+dns=192.1.1.100
 ```
 
 I started tcpdump to check for potential DNS requests
