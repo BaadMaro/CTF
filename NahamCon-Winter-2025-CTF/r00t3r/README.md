@@ -11,6 +11,8 @@ There's a dodgy user on the network exfiltrating data somehow, try and find wher
 
 Author: [BuildHackSecure](https://x.com/BuildHackSecure)
 
+Challenge is available at : https://app.hackinghub.io/hubs/r00t3r
+
 ## Detailed solution
 
 Start the challenge server and check the page https://uoa80ug0wea1.ctfhub.io/
