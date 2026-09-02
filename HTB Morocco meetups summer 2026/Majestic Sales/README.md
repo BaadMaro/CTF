@@ -99,7 +99,7 @@ This is the only query without parametrization (db.prepare + stmt) which is a so
 
 For reference, we have two `kid` values 1 and 2, for each office, in `challenge\database.js` / migrate
 
-```
+```sql
             INSERT INTO app_config (kid,tenant,secret) VALUES ('1','gr_office','REDACTED_SECRET_1');
             INSERT INTO app_config (kid,tenant,secret) VALUES ('2','uk_office','REDACTED_SECRET_2');
 ```
