@@ -11,6 +11,8 @@ The law enforcement agencies have received a report of an illegal marketplace fo
 
 Files: 
 
+[web_paid_forums.zip](web_paid_forums.zip)
+
 ## Detailed solution
 
 Start by checking the app's home page 
