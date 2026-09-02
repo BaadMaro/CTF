@@ -11,7 +11,7 @@ You've been tasked with a pentesting engagement on a sales management platform, 
 
 Files:
 
-[]()
+[web_majestic_sales.zip](web_majestic_sales.zip)
 
 ## Detailed solution
 
