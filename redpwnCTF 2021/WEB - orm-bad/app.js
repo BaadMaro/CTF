@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/flag', (req, res) => {
-    db.all("SELECT * FROM users WHERE username='" + req.body.username + "' AND password='" + req.body.password + "'", (err, rows) => {
+    db.all("SELECT * FROM users WHERE username=? AND password=?", [req.body.username, req.body.password], (err, rows) => {
         try {
             if (rows.length == 0) {
                 res.redirect("/?alert=" + encodeURIComponent("you are not admin :("));
